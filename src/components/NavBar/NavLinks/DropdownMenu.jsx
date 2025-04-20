@@ -48,27 +48,25 @@ const DropdownMenu = ({
         {label}
       </span>
 
-      <div
-        className={`dropdown-menu ${isOpen ? "show" : ""}`}
-        role="menu"
-        aria-label={label}>
-        {items.map((item) => (
-          <Link
-            key={item.path}
-            to={item.path}
-            onClick={() => {
-              setActiveDropdown(null);
-              closeMenu();
-            }}
-            className={`dropdown-item ${
-              currentPath === item.path ? "active" : ""
-            }`}
-            role="menuitem"
-            tabIndex={isOpen ? 0 : -1}>
-            {item.label}
-          </Link>
-        ))}
-      </div>
+      {isOpen && (
+        <div className="dropdown-menu show" role="menu" aria-label={label}>
+          {items.map((item) => (
+            <Link
+              key={item.path}
+              to={item.path}
+              onClick={() => {
+                setActiveDropdown(null);
+                closeMenu();
+              }}
+              className={`dropdown-item ${
+                currentPath === item.path ? "active" : ""
+              }`}
+              role="menuitem">
+              {item.label}
+            </Link>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
