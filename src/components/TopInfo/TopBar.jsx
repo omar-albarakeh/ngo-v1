@@ -41,7 +41,7 @@ const TopInfoBar = () => {
     {
       icon: "fas fa-phone",
       content: (
-        <>
+        <span className="phone-links">
           <a href={`tel:${topInfoData.phone1}`} className="top-contact-link">
             {topInfoData.phone1}
           </a>
@@ -53,7 +53,7 @@ const TopInfoBar = () => {
           <a href={`tel:${topInfoData.phone3}`} className="top-contact-link">
             {topInfoData.phone3}
           </a>
-        </>
+        </span>
       ),
     },
   ];
