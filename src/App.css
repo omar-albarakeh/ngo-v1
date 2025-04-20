@@ -2,14 +2,13 @@
 
 :root {
   font-family: "Inter", "Cairo", sans-serif;
-  --bg-color: #ddd5c7;
+  --bg-color: #f2ede4;
   --text-color: #1a1a1a;
   --icon-color: #1a1a1a;
   --primary-green: #4caf50;
   --highlight-black: #000000;
   --highlight-white: #ffffff;
 }
-
 
 * {
   margin: 0;

@@ -1,0 +1,135 @@
+:root {
+  --top-bg: #f2ede4;
+  --text-color: #333;
+  --icon-color: #999;
+  --primary-green: #4caf50;
+}
+
+.language-switcher {
+  max-width: 160px;
+  font-size: 0.95rem;
+  width: 100%;
+  z-index: 1050;
+}
+
+/* Main select box styling */
+.lang-select__control {
+  background-color: var(--top-bg) !important;
+  color: var(--text-color) !important;
+  border: 1px solid var(--icon-color) !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
+  cursor: pointer !important;
+}
+
+/* Focused state */
+.lang-select__control--is-focused {
+  border-color: var(--primary-green) !important;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.25) !important;
+}
+
+/* Hover state */
+.lang-select__control:hover {
+  border-color: var(--primary-green) !important;
+}
+
+/* Container inside control */
+.lang-select__value-container {
+  padding: 6px 12px !important;
+}
+
+/* Dropdown indicator area */
+.lang-select__indicators {
+  padding: 6px !important;
+}
+
+/* Dropdown menu */
+.lang-select__menu {
+  background-color: var(--top-bg) !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+  z-index: 1060 !important;
+}
+
+/* Each option in the dropdown */
+.lang-select__option {
+  background-color: var(--top-bg) !important;
+  color: var(--text-color) !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  padding: 10px 14px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+/* Focused (hovered) option */
+.lang-select__option--is-focused {
+  background-color: rgba(76, 175, 80, 0.1) !important;
+}
+
+/* Selected option */
+.lang-select__option--is-selected {
+  background-color: var(--primary-green) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+/* Selected value (when dropdown is closed) */
+.lang-select__single-value {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: var(--text-color) !important;
+}
+
+/* Language option layout */
+.language-option {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+/* Flag icons */
+.language-option img {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 760px) {
+  .language-switcher {
+    max-width: 100%;
+    font-size: 0.85rem;
+  }
+
+  .lang-select__control {
+    min-height: 32px !important;
+  }
+
+  .lang-select__value-container {
+    padding: 4px 8px !important;
+  }
+
+  .lang-select__indicators {
+    padding: 4px !important;
+  }
+
+  .lang-select__option {
+    padding: 8px 10px !important;
+    font-size: 0.85rem !important;
+  }
+
+  .lang-select__single-value {
+    font-size: 0.85rem !important;
+  }
+
+  .language-option img {
+    width: 16px !important;
+    height: 16px !important;
+  }
+}

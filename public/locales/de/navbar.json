@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "Welcome": "Willkommen",
+    "gallery": "Galerie",
+    "ourServices": "Unsere Dienstleistungen",
+    "whoWeAre": {
+      "title": "Wer Wir Sind",
+      "whoAreWe": "Wer Sind Wir",
+      "history": "Geschichte"
+    },
+    "services": {
+      "sosGaza": "SOS Gaza",
+      "zakatAlMaal": "Zakat Al Maal",
+      "ramadan2025": "Ramadan 2025",
+      "Gazza Emergency": "Gaza Notfall",
+      "aidAlAdha": "Aid-al-Adha",
+      "orphanSponsorship": "Waisenpatenschaft",
+      "waterForGaza": "Wasser für Gaza",
+      "ramadanDonations": "Ramadan Spenden"
+    },
+    "contactUs": "Kontaktieren Sie Uns",
+    "donateNow": "Jetzt Spenden"
+  }
+}
