@@ -3,7 +3,7 @@
   font-size: 2rem;
   background: none;
   border: none;
-  color: var(--primary-green);
+  color: black;
   cursor: pointer;
   padding: 0.5rem 1rem;
   transition: transform 0.2s ease, color 0.2s ease;
