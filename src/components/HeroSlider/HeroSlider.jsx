@@ -69,7 +69,7 @@ const HeroSlider = () => {
           style={{
             backgroundImage: `url(images/HeroSlider/slide${
               currentIndex + 1
-            }.png)`,
+            }.WebP)`,
           }}>
           <div className="hero-slide-inner">
             <div className="hero-content">
