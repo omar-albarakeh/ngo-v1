@@ -56,7 +56,10 @@ const DropdownMenu = ({
           <Link
             key={item.path}
             to={item.path}
-            onClick={closeMenu}
+            onClick={() => {
+              closeMenu();
+              setActiveDropdown(null);
+            }}
             className={`dropdown-item ${
               currentPath === item.path ? "active" : ""
             }`}
