@@ -14,7 +14,7 @@
 .custom-button:hover {
   background-color: var(--secondary-green);
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 18px rgb(0, 0, 0);
 }
 
 .custom-button:active {

@@ -2,7 +2,7 @@ import React from "react";
 import TopInfoBar from "../components/TopInfo/TopBar";
 import MyNavBar from "../components/NavBar/MyNavBar/MyNavBar";
 import HeroSlider from "../components/HeroSlider/HeroSlider";
-// import TaxTip from "../components/TaxTip/TaxTip";
+import TaxTip from "../components/TaxTip/TaxTip";
 // import YouTube from "../components/Youtube/YouTubeGallery";
 // import FeatureSection from "../components/FeatureSection/FeatureSection";
 // import CardSlider from "../components/cardSlider3d/cardSlider3d";
@@ -18,8 +18,8 @@ const Home = () => {
       <TopInfoBar />
       <MyNavBar />
       <HeroSlider />
-      {/*<TaxTip />
-      <YouTube />
+      <TaxTip />
+      {/*<YouTube />
       <FeatureSection />
       <CardSlider />
       <MenuItem />

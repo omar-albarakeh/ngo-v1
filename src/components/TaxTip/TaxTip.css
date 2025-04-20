@@ -1,0 +1,42 @@
+.tax-tip-box {
+  background-color: #f2ede4;
+  color: var(--text-color);
+  padding: 1.5rem 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  height: auto;
+  min-height: 100px;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+.tax-tip-box h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.tax-tip-box p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+.tax-tip-note {
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-style: italic;
+  margin-top: 1.25rem;
+}
+
+.tax-tip-note strong,
+.tax-tip-note a {
+  margin: 0 0.3rem;
+  display: inline-block;
+  vertical-align: middle;
+}
