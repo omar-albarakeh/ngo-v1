@@ -57,8 +57,8 @@ const DropdownMenu = ({
             key={item.path}
             to={item.path}
             onClick={() => {
-              closeMenu();
               setActiveDropdown(null);
+              closeMenu();
             }}
             className={`dropdown-item ${
               currentPath === item.path ? "active" : ""
