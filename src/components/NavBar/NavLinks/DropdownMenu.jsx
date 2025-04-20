@@ -36,8 +36,10 @@ const DropdownMenu = ({
   return (
     <div
       className={`dropdown ${isOpen ? "open" : ""}`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}>
+      {...(!isMobile && {
+        onMouseEnter: handleMouseEnter,
+        onMouseLeave: handleMouseLeave,
+      })}>
       <span
         className="dropdown-toggle"
         tabIndex={0}
