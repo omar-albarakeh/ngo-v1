@@ -1,0 +1,46 @@
+{
+  "slider": [
+    {
+      "title": "Unterstützung für Gaza in der Krise",
+      "name": "SOS Gaza",
+      "description": "Dringende Hilfe ist erforderlich, um Nahrung, Unterkunft und medizinische Versorgung für betroffene Familien in Gaza bereitzustellen",
+      "buttonText": "Jetzt unterstützen"
+    },
+    {
+      "title": "Erfülle deine Pflicht",
+      "name": "Zakat Al Maal",
+      "description": "Gib deine Zakat, um nachhaltige Veränderungen im Leben der Bedürftigsten zu bewirken",
+      "buttonText": "Zakat geben"
+    },
+    {
+      "title": "Spende großzügig in diesem Ramadan",
+      "name": "Ramadan 2025",
+      "description": "Teile die Segnungen des Ramadan, indem du Familien mit Nahrung und Grundbedürfnissen unterstützt",
+      "buttonText": "Für Ramadan spenden"
+    },
+    {
+      "title": "Reagiere auf die dringende Krise",
+      "name": "Rafah Notfall",
+      "description": "Leben sind in Gefahr. Hilf uns, Nothilfe für Betroffene in Rafah zu leisten",
+      "buttonText": "Jetzt helfen"
+    },
+    {
+      "title": "Feiere Eid, indem du gibst",
+      "name": "Aid-al-Adha",
+      "description": "Teile dein Qurbani und bringe Freude zu bedürftigen Familien an diesem Eid",
+      "buttonText": "Qurbani geben"
+    },
+    {
+      "title": "Verändere ein Leben heute",
+      "name": "Waisenpatenschaft",
+      "description": "Biete Hoffnung und Zukunft für Waisen durch kontinuierliche Unterstützung und Fürsorge",
+      "buttonText": "Ein Waisenkind unterstützen"
+    },
+    {
+      "title": "Bringe sauberes Wasser nach Gaza",
+      "name": "Wasser für Gaza",
+      "description": "Hilf uns, nachhaltige Wasserlösungen für Familien in verzweifelter Not zu schaffen",
+      "buttonText": "Für Wasser spenden"
+    }
+  ]
+}

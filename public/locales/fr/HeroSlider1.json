@@ -1,0 +1,46 @@
+{
+  "slider": [
+    {
+      "title": "Soutien à Gaza en crise",
+      "name": "SOS Gaza",
+      "description": "Une aide urgente est nécessaire pour fournir de la nourriture, un abri et un soutien médical aux familles touchées à Gaza",
+      "buttonText": "Soutenir maintenant"
+    },
+    {
+      "title": "Accomplissez votre devoir",
+      "name": "Zakat Al Maal",
+      "description": "Donnez votre Zakat pour faire une différence durable dans la vie de ceux qui en ont le plus besoin",
+      "buttonText": "Donner la Zakat"
+    },
+    {
+      "title": "Donnez généreusement ce Ramadan",
+      "name": "Ramadan 2025",
+      "description": "Partagez les bénédictions du Ramadan en soutenant les familles avec de la nourriture et des produits essentiels",
+      "buttonText": "Faire un don pour le Ramadan"
+    },
+    {
+      "title": "Répondez à la crise urgente",
+      "name": "Urgence Rafah",
+      "description": "Des vies sont en danger. Aidez-nous à fournir des secours d'urgence aux personnes touchées à Rafah",
+      "buttonText": "Aider maintenant"
+    },
+    {
+      "title": "Célébrez l'Aïd en donnant",
+      "name": "Aïd-al-Adha",
+      "description": "Partagez votre Qurbani et apportez de la joie aux familles dans le besoin cet Aïd-al-Adha",
+      "buttonText": "Donner le Qurbani"
+    },
+    {
+      "title": "Changez une vie aujourd'hui",
+      "name": "Parrainage d'orphelins",
+      "description": "Offrez de l'espoir et un avenir aux orphelins grâce à un soutien et des soins constants",
+      "buttonText": "Parrainer un orphelin"
+    },
+    {
+      "title": "Apportez de l'eau potable à Gaza",
+      "name": "Eau pour Gaza",
+      "description": "Aidez-nous à construire des solutions durables en eau pour les familles dans le besoin désespéré",
+      "buttonText": "Faire un don pour l'eau"
+    }
+  ]
+}

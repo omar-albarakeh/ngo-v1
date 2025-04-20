@@ -1,0 +1,46 @@
+{
+  "slider": [
+    {
+      "title": "Support Gaza in Crisis",
+      "name": "SOS Gaza",
+      "description": "Urgent aid is needed to provide food, shelter, and medical support to families affected in Gaza",
+      "buttonText": "Support Now"
+    },
+    {
+      "title": "Fulfill Your Duty",
+      "name": "Zakat Al Maal",
+      "description": "Give your Zakat to make a lasting difference in the lives of those who need it most",
+      "buttonText": "Give Zakat"
+    },
+    {
+      "title": "Give Generously This Ramadan",
+      "name": "Ramadan 2025",
+      "description": "Share the blessings of Ramadan by supporting families with food and essentials",
+      "buttonText": "Donate for Ramadan"
+    },
+    {
+      "title": "Respond to the Urgent Crisis",
+      "name": "Rafah Emergency",
+      "description": "Lives are at risk. Help us deliver emergency relief to those impacted in Rafah",
+      "buttonText": "Help Now"
+    },
+    {
+      "title": "Celebrate Eid by Giving",
+      "name": "Aid-al-Adha",
+      "description": "Share your Qurbani and bring joy to families in need this Aid-al-Adha",
+      "buttonText": "Give Qurbani"
+    },
+    {
+      "title": "Change a Life Today",
+      "name": "Orphan Sponsorship",
+      "description": "Provide hope and a future to orphans through consistent support and care",
+      "buttonText": "Sponsor an Orphan"
+    },
+    {
+      "title": "Bring Clean Water to Gaza",
+      "name": "Water For Gaza",
+      "description": "Help us build sustainable water solutions for families in desperate need",
+      "buttonText": "Donate Water"
+    }
+  ]
+}
