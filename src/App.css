@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cairo:wght@400;600;700&display=swap");
+
+:root {
+  font-family: "Inter", "Cairo", sans-serif;
+  --bg-color: #ddd5c7;
+  --text-color: #1a1a1a;
+  --icon-color: #1a1a1a;
+  --primary-green: #4caf50;
+  --highlight-black: #000000;
+  --highlight-white: #ffffff;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+img,
+.logo {
+  user-select: none;
+}
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
