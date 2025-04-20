@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import ReactPlayer from "react-player/youtube";
 import { useTranslation } from "react-i18next";
 import "./YouTubeGallery.css";
-import videoData from "./videoData.json"; // Import the video data from the JSON file
+import videoData from "./videoData.json"; 
 
 const YouTubeCard = ({ videoId, title, description }) => {
   const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
@@ -25,9 +25,10 @@ const YouTubeGallery = () => {
   const { t } = useTranslation("Youtube");
 
   const [translatedData, setTranslatedData] = useState([]);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
 
   useEffect(() => {
-    // Translate titles and descriptions using the i18n translation
     const translatedVideos = videoData.map((video, idx) => ({
       ...video,
       title: t(`videos.${idx}.title`),
@@ -36,9 +37,14 @@ const YouTubeGallery = () => {
     setTranslatedData(translatedVideos);
   }, [t]);
 
-  const scroll = (direction) => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollBy({
+  const handleScroll = (direction) => {
+    const container = scrollRef.current;
+    if (container) {
+      const { scrollLeft, scrollWidth, clientWidth } = container;
+      setCanScrollLeft(scrollLeft > 0);
+      setCanScrollRight(scrollLeft + clientWidth < scrollWidth);
+
+      container.scrollBy({
         left: direction === "left" ? -320 : 320,
         behavior: "smooth",
       });
@@ -49,7 +55,9 @@ const YouTubeGallery = () => {
     <div className="youtube-gallery">
       <h2 className="video-heading">{t("youtubeUpdates")}</h2>
       <div className="scroll-container">
-        <button className="scroll-btn left" onClick={() => scroll("left")}>
+        <button
+          className={`scroll-btn left ${canScrollLeft ? "" : "disabled"}`}
+          onClick={() => handleScroll("left")}>
           ◀
         </button>
 
@@ -61,7 +69,9 @@ const YouTubeGallery = () => {
           </div>
         </div>
 
-        <button className="scroll-btn right" onClick={() => scroll("right")}>
+        <button
+          className={`scroll-btn right ${canScrollRight ? "" : "disabled"}`}
+          onClick={() => handleScroll("right")}>
           ▶
         </button>
       </div>
