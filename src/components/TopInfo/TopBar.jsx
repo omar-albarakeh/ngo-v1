@@ -32,15 +32,15 @@ const TopInfoBar = () => {
       icon: "fas fa-phone",
       content: (
         <span className="phone-links">
-          <a href={`tel:${t("phone1")}`} className="top-contact-link">
+          <a href={`tel:${t("TopInfo.phone1")}`} className="top-contact-link">
             {t("TopInfo.phone1")}
           </a>
           <span className="separator"> / </span>
-          <a href={`tel:${t("phone2")}`} className="top-contact-link">
+          <a href={`tel:${t("TopInfo.phone2")}`} className="top-contact-link">
             {t("TopInfo.phone2")}
           </a>
           <span className="separator"> / </span>
-          <a href={`tel:${t("phone3")}`} className="top-contact-link">
+          <a href={`tel:${t("TopInfo.phone3")}`} className="top-contact-link">
             {t("TopInfo.phone3")}
           </a>
         </span>
