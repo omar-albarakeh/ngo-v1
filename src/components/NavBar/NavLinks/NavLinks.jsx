@@ -22,7 +22,7 @@ const NavLinks = ({
       { path: "/sos-gaza", label: t("nav.services.sosGaza") },
       { path: "/zakat-al-maal", label: t("nav.services.zakatAlMaal") },
       { path: "/ramadan-2025", label: t("nav.services.ramadan2025") },
-      { path: "/rafah-emergency", label: t("nav.services.rafahEmergency") },
+      { path: "/rafah-emergency", label: t("nav.services.GazzaEmergency") },
       { path: "/aid-al-adha", label: t("nav.services.aidAlAdha") },
       {
         path: "/orphan-sponsorship",
