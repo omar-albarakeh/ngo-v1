@@ -79,7 +79,6 @@
   .zakat-triangle {
     max-width: 100%;
     height: 300px;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
   }
   .zakat-content {
     padding: 15px 0;
