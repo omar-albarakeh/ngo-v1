@@ -1,0 +1,67 @@
+{
+  "featuresB": {
+    "title": "Gemeinsam für Gaza – Laufende Hilfsprojekte",
+    "initiatives": [
+      {
+        "id": "well",
+        "title": "Brunnenbohrung – Sauberes Wasser nach Gaza bringen",
+        "description": "Die Wasserinfrastruktur in Gaza steht kurz vor dem Zusammenbruch. Unzählige Familien sind gezwungen, ohne Zugang zu sicherem Trinkwasser zu leben. Durch Ihre Unterstützung bauen wir Brunnen und Filtersysteme, um sauberes Wasser für Schulen, Krankenhäuser und zerstörte Gemeinschaften bereitzustellen.",
+        "urgency": "Ein Brunnen kann Leben verändern. Seien Sie der Grund, warum Wasser wieder in Gaza fließt.",
+        "cta": "Brunnen finanzieren",
+        "highlights": [
+          "Tiefbrunnen bauen",
+          "Filtersysteme installieren",
+          "Sauberes Wasser für wichtige Institutionen bereitstellen"
+        ]
+      },
+      {
+        "id": "sponsorship",
+        "title": "Soziale Patenschaft – Hoffnung für vom Krieg betroffene Familien wiederherstellen",
+        "description": "Der Krieg hat Tausende von Leben in Gaza zerstört und Familien ohne Unterkunft, Einkommen oder medizinische Versorgung zurückgelassen. Unser Patenschaftsprogramm bietet finanzielle Hilfe, Lebensmittelpakete und Gesundheitsversorgung für Witwen, Verletzte und bedürftige Familien.",
+        "urgency": "Schon eine kleine Geste der Freundlichkeit kann ihr tägliches Leid lindern.",
+        "cta": "Eine bedürftige Familie unterstützen",
+        "benefits": [
+          "Notfallfinanzhilfe",
+          "Medizinische und ernährungsbedingte Hilfe",
+          "Pflege für Witwen, Verletzte und chronisch Kranke"
+        ]
+      },
+      {
+        "id": "udhiyah",
+        "title": "🐑 Opfergabe zum Eid – Freude mit Gazas Familien teilen",
+        "description": "Für viele Familien in Gaza ist Fleisch ein seltenes Luxusgut – oft nur einmal im Jahr zum Eid zu finden. Mit Ihrem Opfer verteilen wir frisches Fleisch an die Bedürftigsten und machen den Eid zu einem Tag des Feierns, nicht des Hungers.",
+        "urgency": "Geben Sie Ihre Qurbani für Gaza und bringen Sie Lächeln in traurige Herzen.",
+        "cta": "Opfern Sie ein Tier",
+        "supplies": [
+          "Frisches Qurbani-Fleisch verteilen",
+          "Die verletzlichsten Haushalte erreichen",
+          "Eid mit Würde und Wärme feiern"
+        ]
+      },
+      {
+        "id": "iftar",
+        "title": "Ramadan Iftars – Nahrung für die Fastenden in Gaza",
+        "description": "Während des Ramadans kämpfen Tausende in Gaza darum, auch nur eine Mahlzeit zu finden, um ihr Fasten inmitten von Belagerung und Mangel zu brechen. Unser Team bereitet täglich warme Iftar-Mahlzeiten zu und liefert sie an die härtesten vom Krise betroffenen Familien.",
+        "urgency": "Ihre Großzügigkeit kann eine warme Mahlzeit und einen Moment des Friedens für eine fastende Familie bringen.",
+        "cta": "Iftar bereitstellen",
+        "highlights": [
+          "Täglich warme Mahlzeiten liefern",
+          "Zielgerichtet die am stärksten betroffenen Familien ansprechen",
+          "Auf dringende Ramadan-Bedürfnisse reagieren"
+        ]
+      },
+      {
+        "id": "orphans",
+        "title": "Waisenpatenschaft – Geben Sie Gazas Kindern eine Zukunft",
+        "description": "Der Konflikt hat Tausende von Kindern in Gaza ihrer Eltern, Sicherheit und Stabilität beraubt. Durch unser Waisenpatenschaftsprogramm bieten wir Bildung, Gesundheitsversorgung und tägliche Bedürfnisse an – um ihnen zu helfen, eine Zukunft voller Hoffnung aufzubauen.",
+        "urgency": "Sponsoren Sie ein Waisenkind heute. Seien Sie ihr Lebensretter für ein besseres Morgen.",
+        "cta": "Ein Kind unterstützen",
+        "benefits": [
+          "Zugang zu hochwertiger Bildung",
+          "Decke der grundlegenden Gesundheitsversorgung",
+          "Monatliche Lebensmittel- und Grundbedürfnisse"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "featuresB": {
+    "title": "Ensemble pour Gaza – Projets de secours en cours",
+    "initiatives": [
+      {
+        "id": "well",
+        "title": "Forage de puits – Apporter de l'eau potable à Gaza",
+        "description": "L'infrastructure de l'eau à Gaza est sur le point de s'effondrer. De nombreuses familles sont contraintes de vivre sans accès à de l'eau potable et sûre. Grâce à votre soutien, nous construisons des puits et des systèmes de filtration pour fournir de l'eau potable aux écoles, aux hôpitaux et aux communautés dévastées.",
+        "urgency": "Un puits peut transformer des vies. Soyez la raison pour laquelle l'eau coule à nouveau à Gaza.",
+        "cta": "Financer un puits",
+        "highlights": [
+          "Construire des puits profonds",
+          "Installer des systèmes de purification",
+          "Fournir de l'eau potable aux institutions vitales"
+        ]
+      },
+      {
+        "id": "sponsorship",
+        "title": "Parrainage social – Restaurer l'espoir pour les familles affectées par la guerre",
+        "description": "La guerre a brisé des milliers de vies à Gaza, laissant des familles sans abri, sans revenu ni soins médicaux. Notre programme de parrainage offre une aide financière, des colis alimentaires et un soutien médical aux veuves, aux blessés et aux familles dans le besoin.",
+        "urgency": "Même un petit acte de gentillesse peut alléger leur souffrance quotidienne.",
+        "cta": "Soutenir une famille dans le besoin",
+        "benefits": [
+          "Soutien financier d'urgence",
+          "Aide médicale et nutritionnelle",
+          "Soutien aux veuves, blessés et malades chroniques"
+        ]
+      },
+      {
+        "id": "udhiyah",
+        "title": "🐑 Sacrifice de l'Aïd – Partager la joie avec les familles de Gaza",
+        "description": "Pour de nombreuses familles à Gaza, la viande est un luxe rare, souvent goûté une seule fois par an pendant l'Aïd. Grâce à votre sacrifice, nous distribuons de la viande fraîche à ceux qui en ont le plus besoin, transformant l'Aïd en une journée de célébration, et non de faim.",
+        "urgency": "Offrez votre Qurbani pour Gaza et apportez des sourires aux cœurs endeuillés.",
+        "cta": "Faire un sacrifice",
+        "supplies": [
+          "Distribuer de la viande fraîche de Qurbani",
+          "Atteindre les foyers les plus vulnérables",
+          "Célébrer l'Aïd avec dignité et chaleur"
+        ]
+      },
+      {
+        "id": "iftar",
+        "title": "Iftars de Ramadan – Nourrir les jeûneurs à Gaza",
+        "description": "Pendant le Ramadan, des milliers de personnes à Gaza peinent à trouver un seul repas pour rompre leur jeûne en raison du siège et de la pénurie. Notre équipe prépare et distribue des repas chauds d'Iftar chaque jour aux plus touchés par la crise.",
+        "urgency": "Votre générosité peut offrir un repas chaud et un moment de paix à une famille qui jeûne.",
+        "cta": "Fournir un Iftar",
+        "highlights": [
+          "Distribuer des repas chauds chaque jour",
+          "Cibler les familles les plus affectées",
+          "Répondre aux besoins urgents pendant Ramadan"
+        ]
+      },
+      {
+        "id": "orphans",
+        "title": "Parrainage d'orphelins – Donner un avenir aux enfants de Gaza",
+        "description": "Le conflit a volé à des milliers d'enfants à Gaza leurs parents, leur sécurité et leur stabilité. Grâce à notre programme de parrainage d'orphelins, nous fournissons une éducation, des soins de santé et des besoins quotidiens – les aidant à reconstruire un avenir rempli d'espoir.",
+        "urgency": "Parrainez un orphelin aujourd'hui. Soyez leur lien vers un avenir plus radieux.",
+        "cta": "Parrainer un enfant",
+        "benefits": [
+          "Accès à une éducation de qualité",
+          "Couverture des soins de santé essentiels",
+          "Besoins alimentaires et de base mensuels"
+        ]
+      }
+    ]
+  }
+}

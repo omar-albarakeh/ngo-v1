@@ -1,0 +1,67 @@
+{
+  "featuresB": {
+    "title": "Together for Gaza – Ongoing Relief Projects",
+    "initiatives": [
+      {
+        "id": "well",
+        "title": "Well Drilling – Bringing Clean Water to Gaza",
+        "description": "Gaza’s water infrastructure is on the brink of collapse. Countless families are forced to live without access to safe, drinkable water. Through your support, we build wells and filtration systems to deliver clean water to schools, hospitals, and devastated communities.",
+        "urgency": "One well can transform lives. Be the reason water flows again in Gaza.",
+        "cta": "Fund a Well",
+        "highlights": [
+          "Construct deep water wells",
+          "Install purification systems",
+          "Supply clean water to vital institutions"
+        ]
+      },
+      {
+        "id": "sponsorship",
+        "title": "Social Sponsorship – Restoring Hope for War-Affected Families",
+        "description": "War has shattered thousands of lives in Gaza, leaving families without shelter, income, or medical care. Our sponsorship program offers financial aid, food parcels, and healthcare support to widows, the injured, and families in dire need.",
+        "urgency": "Even a small act of kindness can ease their daily suffering.",
+        "cta": "Support a Family in Need",
+        "benefits": [
+          "Emergency financial support",
+          "Medical and nutritional aid",
+          "Care for widows, injured, and chronically ill"
+        ]
+      },
+      {
+        "id": "udhiyah",
+        "title": "🐑 Eid Sacrifice – Share Joy with Gaza’s Families",
+        "description": "For many families in Gaza, meat is a rare luxury—often only tasted once a year during Eid. With your sacrifice, we distribute fresh meat to those who need it most, turning Eid into a day of celebration, not hunger.",
+        "urgency": "Give your Qurbani for Gaza and bring smiles to grieving hearts.",
+        "cta": "Make a Sacrifice",
+        "supplies": [
+          "Distribute fresh Qurbani meat",
+          "Reach the most vulnerable homes",
+          "Celebrate Eid with dignity and warmth"
+        ]
+      },
+      {
+        "id": "iftar",
+        "title": "Ramadan Iftars – Nourishment for the Fasting in Gaza",
+        "description": "During Ramadan, thousands in Gaza struggle to find a single meal to break their fast amidst siege and scarcity. Our team prepares and delivers hot iftar meals daily to those hit hardest by the crisis.",
+        "urgency": "Your generosity can bring a warm meal and a moment of peace to a fasting family.",
+        "cta": "Provide an Iftar",
+        "highlights": [
+          "Deliver hot meals every day",
+          "Target the most affected families",
+          "Respond to urgent Ramadan needs"
+        ]
+      },
+      {
+        "id": "orphans",
+        "title": "Orphan Sponsorship – Give Gaza’s Children a Future",
+        "description": "Conflict has robbed thousands of children in Gaza of their parents, safety, and stability. Through our orphan sponsorship program, we provide education, healthcare, and daily essentials—helping them rebuild a future filled with hope.",
+        "urgency": "Sponsor an orphan today. Be their lifeline to a brighter tomorrow.",
+        "cta": "Sponsor a Child",
+        "benefits": [
+          "Access to quality education",
+          "Essential healthcare coverage",
+          "Monthly food and basic needs"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+.verse-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.verse-card {
+  max-width: 600px;
+  background: linear-gradient(to bottom right, #3b8e3d, #ffffff, #3b8e3d);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.verse-text {
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #065f46;
+  margin-bottom: 15px;
+}
+
+.verse-source {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
