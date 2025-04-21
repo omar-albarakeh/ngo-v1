@@ -87,7 +87,6 @@
   margin-bottom: 0.625rem;
 }
 
-
 .urgency-text {
   color: #d62828;
   font-weight: 700;
@@ -97,6 +96,7 @@
 
 .FeatureButton {
   margin-top: 1.5rem;
+  margin-left: 5rem;
 }
 
 /* Responsive Design */

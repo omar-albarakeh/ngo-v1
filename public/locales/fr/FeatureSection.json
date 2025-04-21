@@ -11,7 +11,7 @@
           "✅ Soutenir les veuves et les orphelins",
           "✅ Distribuer de la viande dans les zones de conflit"
         ],
-        "cta": "Faites un don maintenant et multipliez vos bénédictions !"
+        "cta": "Faire un Don"
       },
       {
         "id": "gazaEmergency",
@@ -23,7 +23,7 @@
           "🛏️ Kits d'abri et de survie"
         ],
         "urgency": "Le temps presse - agissez maintenant pour sauver des vies !",
-        "cta": "Faites un don urgent pour Gaza !"
+        "cta": "Faire un Don"
       },
       {
         "id": "ramadanFood",
@@ -34,7 +34,7 @@
           "🍲 Repas chauds pour l'Iftar",
           "🫶 Soutenir une famille qui jeûne"
         ],
-        "cta": "Donnez maintenant et gagnez des récompenses divines !"
+        "cta": "Faire un Don"
       }
     ]
   }

@@ -11,7 +11,7 @@
           "✅ Witwen und Waisen unterstützen",
           "✅ Fleisch in Konfliktzonen verteilen"
         ],
-        "cta": "Spende jetzt und multipliziere deine Segnungen!"
+        "cta": "Jetzt Spenden"
       },
       {
         "id": "gazaEmergency",
@@ -23,7 +23,7 @@
           "🛏️ Notunterkünfte und Überlebenspakete"
         ],
         "urgency": "Die Zeit läuft ab – handle jetzt, um Leben zu retten!",
-        "cta": "Spende dringend für Gaza!"
+        "cta": "Jetzt Spenden"
       },
       {
         "id": "ramadanFood",
@@ -34,7 +34,7 @@
           "🍲 Warme Mahlzeiten für Iftar",
           "🫶 Eine fastende Familie unterstützen"
         ],
-        "cta": "Gib jetzt und verdiene göttliche Belohnungen!"
+        "cta": "Jetzt Spenden"
       }
     ]
   }

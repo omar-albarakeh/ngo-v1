@@ -11,7 +11,7 @@
           "✅ Support widows & orphans",
           "✅ Distribute meat in conflict zones"
         ],
-        "cta": "Donate Now & Multiply Your Blessings!"
+        "cta": "Donate Now"
       },
       {
         "id": "gazaEmergency",
@@ -23,7 +23,7 @@
           "🛏️ Shelter & survival kits"
         ],
         "urgency": "Time is running out—act now to save lives!",
-        "cta": "Donate Urgently for Gaza!"
+        "cta": "Donate Now"
       },
       {
         "id": "ramadanFood",
@@ -34,7 +34,7 @@
           "🍲 Hot meals for Iftar",
           "🫶 Support a fasting family"
         ],
-        "cta": "Give Now & Earn Divine Rewards!"
+        "cta": "Donate Now"
       }
     ]
   }
