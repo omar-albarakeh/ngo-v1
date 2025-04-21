@@ -3,6 +3,7 @@
   padding: 2rem;
   color: #4caf50;
   font-family: sans-serif;
+  max-width: 100%;
   width: 100%;
   overflow: hidden;
 }
@@ -27,16 +28,15 @@
   display: flex;
   flex: 0 0 100%;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  flex-wrap: wrap; /* 👈 allow wrapping if needed */
+  gap: 1.5rem; /* 👈 optional, for better spacing */
   padding: 1rem 0;
 }
-
 .stat-card {
   cursor: pointer;
   user-select: none;
-  width: 320px;
-  height: 280px;
+  width: 320px; /* 👈 increase width */
+  height: 280px; /* 👈 increase height */
   background-color: #f9f9f9;
   border-radius: 12px;
   padding: 1rem;
@@ -78,7 +78,7 @@
   margin: 0 6px;
   border-radius: 50%;
   background-color: #ccc;
-  cursor: pointer;
+  cursor: pointer; 
   user-select: none;
 }
 

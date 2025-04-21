@@ -1,13 +1,8 @@
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
 import "./FAQAccordion.css";
 
-export default function FAQAccordion() {
+export default function FAQAccordion({ title, faqList }) {
   const [openIndex, setOpenIndex] = useState(null);
-  const { t } = useTranslation("sosgaza");
-
-  const faqList = t("faq.list", { returnObjects: true });
-  const title = t("faq.title");
 
   const toggleIndex = (index) => {
     setOpenIndex(openIndex === index ? null : index);

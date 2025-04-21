@@ -50,58 +50,5 @@
         "answer": "Vous pouvez sensibiliser autour de vous, participer à des manifestations pacifiques, contacter des représentants, créer du contenu éducatif et soutenir des politiques promouvant la justice et la paix."
       }
     ]
-  },
-  "assistanceStats": {
-    "title": "Depuis le 9 octobre, nous avons fourni une aide aux Palestiniens",
-    "stats": {
-      "food": {
-        "label": "Colis alimentaires livrés",
-        "count": "120 000 personnes"
-      },
-      "medical": {
-        "label": "Aide médicale fournie",
-        "count": "85 000 personnes"
-      },
-      "shelter": {
-        "label": "Abris temporaires installés",
-        "count": "15 000 familles"
-      },
-      "water": {
-        "label": "Accès à l'eau potable rétabli",
-        "count": "60 000 personnes"
-      },
-      "schoolKits": {
-        "label": "Kits scolaires distribués",
-        "count": "25 000 enfants"
-      },
-      "mobileClinics": {
-        "label": "Cliniques mobiles déployées",
-        "count": "200 cliniques"
-      },
-      "hospitalBeds": {
-        "label": "Lits d’hôpital fournis",
-        "count": "1 500 lits"
-      },
-      "infantNutrition": {
-        "label": "Kits nutritionnels pour nourrissons",
-        "count": "10 000 bébés"
-      },
-      "hygieneKits": {
-        "label": "Kits d’hygiène livrés",
-        "count": "75 000 personnes"
-      },
-      "heatingSupplies": {
-        "label": "Fournitures de chauffage distribuées",
-        "count": "30 000 familles"
-      },
-      "reliefConvoys": {
-        "label": "Convois humanitaires envoyés",
-        "count": "480 camions"
-      },
-      "cashSupport": {
-        "label": "Aide financière d’urgence",
-        "count": "18 000 familles"
-      }
-    }
   }
 }
