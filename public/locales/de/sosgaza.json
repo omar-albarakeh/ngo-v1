@@ -1,0 +1,107 @@
+{
+  "verse": {
+    "sentences": [
+      "„Wer seinem Bruder dient, dem wird Allah dienen“",
+      "sagte der Prophet ﷺ, um die Tugend der Hilfe für Bedürftige zu verdeutlichen."
+    ],
+    "source": "Der Prophet (ﷺ), in einer authentischen Überlieferung"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "list": [
+      {
+        "question": "Wo liegt Gaza?",
+        "answer": "Gaza ist ein kleines, dicht besiedeltes Gebiet an der östlichen Mittelmeerküste, angrenzend an Ägypten und Israel."
+      },
+      {
+        "question": "Was passiert in Gaza?",
+        "answer": "Gaza erlebt eine humanitäre Krise durch anhaltende Konflikte, Blockaden und militärische Operationen, was zu Engpässen bei Lebensmitteln, Wasser, Strom und medizinischer Versorgung führt."
+      },
+      {
+        "question": "Warum ist Gaza unter Blockade?",
+        "answer": "Seit 2007 haben Israel und Ägypten eine Blockade über Gaza verhängt, aus Sicherheitsgründen. Diese Blockade hat jedoch das Leben von über 2 Millionen Menschen erheblich beeinträchtigt."
+      },
+      {
+        "question": "Wer lebt in Gaza?",
+        "answer": "In Gaza leben über 2 Millionen Palästinenser, viele davon sind Flüchtlinge oder Nachkommen von Flüchtlingen der Nakba 1948."
+      },
+      {
+        "question": "Was bedeutet 'SOS Gaza'?",
+        "answer": "'SOS Gaza' ist ein globaler Hilferuf, der auf den dringenden Bedarf an humanitärer Hilfe, den Schutz von Zivilisten und ein Ende des Leids aufmerksam macht."
+      },
+      {
+        "question": "Wie kann ich Gaza helfen?",
+        "answer": "Du kannst Gaza unterstützen, indem du an vertrauenswürdige Hilfsorganisationen spendest, in sozialen Medien Bewusstsein schaffst, an friedlichen Aktionen teilnimmst und für die Betroffenen betest."
+      },
+      {
+        "question": "Können Hilfsorganisationen in Gaza helfen?",
+        "answer": "Viele Hilfsorganisationen arbeiten unter extremen Risiken und eingeschränktem Zugang. Einige Hilfe kommt durch, reicht jedoch oft nicht aus, um die dringendsten Bedürfnisse zu decken."
+      },
+      {
+        "question": "Ist Gaza für Zivilisten sicher?",
+        "answer": "Gaza gilt in Zeiten von Konflikten als extrem unsicher, Zivilisten sind oft dem Beschuss ausgesetzt und haben keinen Zugang zu sicheren Unterkünften oder medizinischer Versorgung."
+      },
+      {
+        "question": "Welche Rolle spielt die internationale Gemeinschaft?",
+        "answer": "Viele Mitglieder der internationalen Gemeinschaft fordern Waffenstillstände, verurteilen Gewalt gegen Zivilisten und drängen auf humanitären Zugang und langfristige Lösungen."
+      },
+      {
+        "question": "Was kann ich tun außer spenden?",
+        "answer": "Du kannst Bewusstsein schaffen, an friedlichen Demonstrationen teilnehmen, Vertreter kontaktieren, Bildungsinhalte erstellen und gerechte sowie friedensfördernde Politik unterstützen."
+      }
+    ]
+  },
+  "assistanceStats": {
+    "title": "Seit dem 9. Oktober leisten wir Hilfe für die Palästinenser",
+    "stats": {
+      "food": {
+        "label": "Gelieferte Lebensmittelpakete",
+        "count": "120.000 Personen"
+      },
+      "medical": {
+        "label": "Geleistete medizinische Hilfe",
+        "count": "85.000 Personen"
+      },
+      "shelter": {
+        "label": "Eingerichtete Notunterkünfte",
+        "count": "15.000 Familien"
+      },
+      "water": {
+        "label": "Wiederhergestellter Zugang zu sauberem Wasser",
+        "count": "60.000 Personen"
+      },
+      "schoolKits": {
+        "label": "Verteilte Schulsets",
+        "count": "25.000 Kinder"
+      },
+      "mobileClinics": {
+        "label": "Eingesetzte mobile Kliniken",
+        "count": "200 Kliniken"
+      },
+      "hospitalBeds": {
+        "label": "Gelieferte Krankenhausbetten",
+        "count": "1.500 Betten"
+      },
+      "infantNutrition": {
+        "label": "Babynahrungspakete",
+        "count": "10.000 Babys"
+      },
+      "hygieneKits": {
+        "label": "Gelieferte Hygienesets",
+        "count": "75.000 Personen"
+      },
+      "heatingSupplies": {
+        "label": "Verteilte Heizmaterialien",
+        "count": "30.000 Familien"
+      },
+      "reliefConvoys": {
+        "label": "Gesendete Hilfskonvois",
+        "count": "480 Lastwagen"
+      },
+      "cashSupport": {
+        "label": "Sofortige finanzielle Unterstützung",
+        "count": "18.000 Familien"
+      }
+    }
+  }
+}

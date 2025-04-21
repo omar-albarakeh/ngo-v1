@@ -93,7 +93,8 @@ const CardSlider = () => {
 
   return (
     <div className="slider-container">
-      <h1 className="slider-heading">{t("sliderB.title")}</h1>
+      <h1 className="slider-heading-title">{t("sliderB.title")}</h1>
+      <h5 className="slider-heading-sub">{t("sliderB.description")}</h5>
 
       <div
         className="slider-wrapper"

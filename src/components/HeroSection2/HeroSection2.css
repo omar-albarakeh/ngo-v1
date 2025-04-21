@@ -1,0 +1,62 @@
+.hero-sectionB {
+  position: relative;
+  background-image: url("/images/HeroSection2/palestine-relief.jpg"); /* Update path to your image */
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 2rem;
+  color: white;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlayB {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for contrast */
+  width: 100%;
+  height: 100%;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-contentB {
+  max-width: 850px;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-titleB {
+  font-size: 3rem;
+  color: #4caf50;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.hero-descriptionB {
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.hero-descriptionB strong {
+  color: #81c784; /* soft green */
+}
+
+.hero-buttonB {
+  padding: 0.8rem 1.6rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #388e3c;
+}

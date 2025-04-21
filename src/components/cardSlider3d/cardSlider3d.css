@@ -1,4 +1,4 @@
-/* Container */
+/* === Container === */
 .slider-container {
   width: 100%;
   min-height: 100vh;
@@ -6,33 +6,69 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #f9f9f9;
   overflow: hidden;
   position: relative;
 }
 
-/* Heading */
+/* === Headings === */
 .slider-heading {
-  font-size: clamp(2rem, 7vw, 4rem);
-  font-weight: 700;
-  color: #111;
-  margin-bottom: clamp(1.875rem, 5vw, 3.125rem);
+  font-family: "Poppins", sans-serif;
   text-align: center;
+  line-height: 1.3;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.slider-heading:nth-of-type(1) {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  color: #2e7d32;
+  margin-bottom: clamp(1rem, 3vw, 2rem);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
   position: relative;
 }
 
-.slider-heading:after {
+.slider-heading:nth-of-type(1)::after {
   content: "";
   position: absolute;
-  bottom: -0.9375rem;
+  bottom: -1rem;
   left: 50%;
   transform: translateX(-50%);
-  width: clamp(6rem, 12vw, 10rem);
-  height: 0.3125rem;
-  background: linear-gradient(90deg, #4caf50, #4caf50);
-  border-radius: 0.1875rem;
+  width: clamp(5rem, 12vw, 8rem);
+  height: 4px;
+  background: linear-gradient(90deg, #4caf50, #81c784);
+  border-radius: 1rem;
 }
 
-/* Slider area */
+.slider-heading:nth-of-type(2) {
+  font-size: clamp(0.7rem, 1vw, 0.7rem);
+  font-weight: 400;
+  font-style: italic;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto clamp(2rem, 4vw, 3rem);
+  padding: 0 1rem;
+}
+
+/* === Animation === */
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.slide-overlay h5 {
+  font-size: clamp(0.4rem, 1vw, 0.3rem);
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+/* === Slider Wrapper === */
 .slider-wrapper {
   position: relative;
   width: 100%;
@@ -42,35 +78,37 @@
   align-items: center;
   justify-content: center;
   perspective: 2000px;
-  margin-bottom: clamp(1.5rem, 4vw, 3.125rem);
+  margin-bottom: clamp(1.5rem, 4vw, 3rem);
 }
 
-/* Individual Slide */
+/* === Slide === */
 .slide {
   position: absolute;
   width: clamp(12rem, 25vw, 20rem);
   height: clamp(16rem, 35vw, 27.5rem);
-  transform-style: preserve-3d;
-  transition: all 0.7s ease;
   border-radius: 1.25rem;
   overflow: hidden;
-  box-shadow: 0 2.5rem 5rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   background: #fff;
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
 }
 
+/* Slide Image */
 .slide-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  min-height: 6.25rem;
+  min-height: 6rem;
 }
 
+/* Slide Overlay */
 .slide-overlay {
   position: absolute;
   bottom: 0;
   width: 100%;
   padding: 1rem;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.55);
   color: #fff;
   font-size: clamp(0.9rem, 2vw, 1.1rem);
   font-weight: 600;
@@ -79,7 +117,7 @@
   border-radius: 0 0 1.25rem 1.25rem;
 }
 
-/* Glow */
+/* Slide Glow */
 .slide-glow {
   position: absolute;
   top: 0;
@@ -87,13 +125,13 @@
   width: 100%;
   height: 100%;
   border-radius: 1.25rem;
-  box-shadow: 0 0 5rem 1.875rem rgba(255, 174, 201, 0.3);
+  box-shadow: 0 0 5rem 2rem rgba(255, 174, 201, 0.25);
+  filter: blur(1rem);
   z-index: -1;
-  filter: blur(0.875rem);
   pointer-events: none;
 }
 
-/* Arrows */
+/* === Arrows === */
 .slider-arrow {
   position: absolute;
   top: 50%;
@@ -101,20 +139,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3rem; /* 48px */
+  width: 3rem;
   height: 3rem;
-  border-radius: 50%;
   background-color: #4caf50;
   border: none;
+  border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-  z-index: 99;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  z-index: 10;
 }
+
+.slider-arrow:hover {
+  background-color: #38793a;
+  transform: translateY(-50%) scale(1.1);
+}
+
 .slider-arrow svg {
   width: 2rem;
   height: 2rem;
-  stroke: white;
+  stroke: #fff;
   stroke-width: 2;
   fill: none;
 }
@@ -127,20 +171,12 @@
   right: 1rem;
 }
 
-.slider-arrow:hover {
-  background-color: #38793a;
-  transform: translateY(-50%) scale(1.1);
-}
-
-.slider-arrow:hover svg {
-  stroke: white;
-}
-/* Dots */
+/* === Dots === */
 .slider-dots {
   display: flex;
   justify-content: center;
   gap: 0.875rem;
-  margin-top: -0.625rem;
+  margin-top: -0.5rem;
 }
 
 .dot {
@@ -158,26 +194,57 @@
   transform: scale(1.35);
 }
 
-/* Autoplay */
+/* === Autoplay Toggle (if used) === */
 .autoplay-toggle {
-  margin-top: 1.5625rem;
+  margin-top: 1.5rem;
   padding: 0.75rem 1.75rem;
-  font-weight: bold;
   font-size: 1rem;
+  font-weight: bold;
   background: linear-gradient(90deg, #4caf50, #4caf50);
   color: white;
   border: none;
-  border-radius: 1.875rem;
+  border-radius: 2rem;
   cursor: pointer;
-  box-shadow: 0 0.375rem 1rem rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
-
 .autoplay-toggle:hover {
   transform: scale(1.07);
 }
+/* Main heading (h1) */
+.slider-heading-title {
+  font-size: clamp(2rem, 7vw, 4rem);
+  font-weight: 700;
+  color: #111;
+  margin-bottom: clamp(1.5rem, 4vw, 2rem);
+  text-align: center;
+  position: relative;
+}
 
-/* Tablet */
+.slider-heading-title::after {
+  content: "";
+  position: absolute;
+  bottom: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(5rem, 10vw, 8rem);
+  height: 0.25rem;
+  background: linear-gradient(90deg, #4caf50, #4caf50);
+  border-radius: 0.125rem;
+}
+
+/* Subheading (h5) */
+.slider-heading-sub {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 500;
+  color: #444;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+/* === Responsive === */
 @media (max-width: 768px) {
   .slider-wrapper {
     height: 25rem;
@@ -187,6 +254,7 @@
     width: 16.25rem;
     height: 21.25rem;
   }
+
   .slider-arrow {
     width: 2.5rem;
     height: 2.5rem;
@@ -206,7 +274,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 500px) {
   .slider-container {
     min-height: 50vh;
@@ -220,6 +287,7 @@
     width: 14rem;
     height: 19rem;
   }
+
   .slider-arrow {
     width: 2.25rem;
     height: 2.25rem;

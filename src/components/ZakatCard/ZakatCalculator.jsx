@@ -19,7 +19,7 @@ const ZakatCalculator = () => {
         </p>
         <p>{t("zakatCalculator.paragraph2")}</p>
 
-        <CustomButton titleKey="zakatCalculator.button" to="/donation" />
+        <CustomButton titleKey="nav.zakat" to="/zakat-al-maal" />
       </div>
     </div>
   );

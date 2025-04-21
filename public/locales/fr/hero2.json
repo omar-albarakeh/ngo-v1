@@ -1,0 +1,13 @@
+{
+  "title": "Soutenez la Palestine",
+  "description": {
+    "part1": "Gaza fait face à une catastrophe humanitaire croissante. Des dizaines de milliers de vies ont été perdues, et plus de",
+    "part2": "2 millions de personnes",
+    "part3": "sont piégées dans des conditions désastreuses — sans accès à la nourriture, à l'eau potable ou aux soins médicaux. Votre contribution peut apporter une aide urgente aux familles dans le besoin.",
+    "part4": "Agissez maintenant — votre soutien compte."
+  },
+  "button": {
+    "text": "Apportez de l'aide aujourd'hui",
+    "alert": "Vous avez cliqué sur Faire un don !"
+  }
+}

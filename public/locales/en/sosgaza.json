@@ -1,0 +1,104 @@
+{
+  "verse": {
+    "sentences": [
+      "\"Whoever is in the service of his brother, Allah will be in his service,\"",
+      "said the Prophet ﷺ to show the virtue of helping people in need."
+    ],
+    "source": "The Prophet (ﷺ), in an authentic narration"
+  },
+  "faqs": [
+    {
+      "question": "Where is Gaza?",
+      "answer": "Gaza is a small, densely populated strip of land located on the eastern coast of the Mediterranean Sea, bordered by Egypt and Israel."
+    },
+    {
+      "question": "What is happening in Gaza?",
+      "answer": "Gaza has been facing a humanitarian crisis due to ongoing conflict, blockades, and military operations..."
+    },
+    {
+      "question": "Why is Gaza under blockade?",
+      "answer": "Since 2007, Israel and Egypt have imposed a blockade on Gaza, citing security concerns..."
+    },
+    {
+      "question": "Who lives in Gaza?",
+      "answer": "Gaza is home to over 2 million Palestinians..."
+    },
+    {
+      "question": "What does 'SOS Gaza' mean?",
+      "answer": "'SOS Gaza' is a global call for help..."
+    },
+    {
+      "question": "How can I help Gaza?",
+      "answer": "You can support Gaza by donating to trusted humanitarian organizations..."
+    },
+    {
+      "question": "Are humanitarian organizations able to help in Gaza?",
+      "answer": "Many humanitarian organizations operate under extreme risk and limited access..."
+    },
+    {
+      "question": "Is Gaza safe for civilians?",
+      "answer": "Gaza is considered extremely unsafe during times of conflict..."
+    },
+    {
+      "question": "What is the role of the international community?",
+      "answer": "Many in the international community have called for ceasefires..."
+    },
+    {
+      "question": "What can I do besides donating?",
+      "answer": "You can spread awareness, attend peaceful demonstrations..."
+    }
+  ],
+  "assistanceStats": {
+    "title": "Since October 9, we have provided assistance to the Palestinians",
+    "stats": {
+      "food": {
+        "label": "Food Packages Delivered",
+        "count": "120,000 people"
+      },
+      "medical": {
+        "label": "Medical Aid Provided",
+        "count": "85,000 people"
+      },
+      "shelter": {
+        "label": "Temporary Shelters Established",
+        "count": "15,000 families"
+      },
+      "water": {
+        "label": "Clean Water Access Restored",
+        "count": "60,000 people"
+      },
+      "schoolKits": {
+        "label": "School Kits Distributed",
+        "count": "25,000 children"
+      },
+      "mobileClinics": {
+        "label": "Mobile Clinics Deployed",
+        "count": "200 clinics"
+      },
+      "hospitalBeds": {
+        "label": "Hospital Beds Supplied",
+        "count": "1,500 beds"
+      },
+      "infantNutrition": {
+        "label": "Infant Nutrition Kits",
+        "count": "10,000 babies"
+      },
+      "hygieneKits": {
+        "label": "Hygiene Kits Delivered",
+        "count": "75,000 people"
+      },
+      "heatingSupplies": {
+        "label": "Heating Supplies Distributed",
+        "count": "30,000 families"
+      },
+      "reliefConvoys": {
+        "label": "Relief Convoys Sent",
+        "count": "480 trucks"
+      },
+      "cashSupport": {
+        "label": "Emergency Cash Support",
+        "count": "18,000 families"
+      }
+    }
+  }
+}

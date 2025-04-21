@@ -1,0 +1,13 @@
+{
+  "title": "Stand with Palestine",
+  "description": {
+    "part1": "Gaza is facing a deepening humanitarian catastrophe. Tens of thousands of lives have been lost, and over",
+    "part2": "2 million people",
+    "part3": "are trapped in dire conditions—without access to food, clean water, or medical aid. Your contribution can bring urgent relief to families in desperate need.",
+    "part4": "Take action now—your support matters."
+  },
+  "button": {
+    "text": "Give Relief Today",
+    "alert": "Donate Now Clicked!"
+  }
+}

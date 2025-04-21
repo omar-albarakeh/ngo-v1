@@ -1,10 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
 import "./LifeVerseCard.css";
 
-const LifeVerseCard = () => {
-  const { t } = useTranslation("whoweare");
+const LifeVerseCard = ({ sentences = [], source = "" }) => {
+  const safeSentences = Array.isArray(sentences) ? sentences : [];
 
   return (
     <motion.div
@@ -13,8 +12,12 @@ const LifeVerseCard = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}>
       <div className="verse-card">
-        <p className="verse-text">{t("verse.text")}</p>
-        <p className="verse-source">{t("verse.source")}</p>
+        {safeSentences.map((sentence, index) => (
+          <p className="verse-text" key={index}>
+            {sentence}
+          </p>
+        ))}
+        {source && <p className="verse-source">{source}</p>}
       </div>
     </motion.div>
   );

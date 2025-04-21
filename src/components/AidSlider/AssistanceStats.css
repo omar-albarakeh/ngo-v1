@@ -1,0 +1,87 @@
+.stats-container {
+  text-align: center;
+  padding: 2rem;
+  color: #4caf50;
+  font-family: sans-serif;
+  width: 100%;
+  overflow: hidden;
+}
+
+.stats-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-track-multi {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide-multi {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.stat-card {
+  cursor: pointer;
+  user-select: none;
+  width: 320px;
+  height: 280px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.stat-text {
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dot.active {
+  background-color: #333;
+}

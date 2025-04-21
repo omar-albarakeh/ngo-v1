@@ -1,0 +1,107 @@
+{
+  "verse": {
+    "sentences": [
+      "« Celui qui est au service de son frère, Allah sera à son service »",
+      "dit le Prophète ﷺ pour montrer la vertu d'aider les personnes dans le besoin."
+    ],
+    "source": "Le Prophète (ﷺ), dans un hadith authentique"
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "list": [
+      {
+        "question": "Où se trouve Gaza ?",
+        "answer": "Gaza est une bande de terre petite et densément peuplée située sur la côte est de la mer Méditerranée, bordée par l'Égypte et Israël."
+      },
+      {
+        "question": "Que se passe-t-il à Gaza ?",
+        "answer": "Gaza est confrontée à une crise humanitaire en raison de conflits persistants, de blocus et d'opérations militaires, entraînant des pénuries de nourriture, d'eau, d'électricité et de fournitures médicales."
+      },
+      {
+        "question": "Pourquoi Gaza est-elle sous blocus ?",
+        "answer": "Depuis 2007, Israël et l'Égypte ont imposé un blocus à Gaza pour des raisons de sécurité. Cependant, ce blocus a gravement affecté la vie de plus de 2 millions de civils vivant dans la région."
+      },
+      {
+        "question": "Qui vit à Gaza ?",
+        "answer": "Gaza abrite plus de 2 millions de Palestiniens, dont beaucoup sont des réfugiés ou des descendants de réfugiés de la Nakba de 1948."
+      },
+      {
+        "question": "Que signifie 'SOS Gaza' ?",
+        "answer": "'SOS Gaza' est un appel mondial à l'aide, attirant l'attention sur le besoin urgent d'aide humanitaire, de protection des civils et de fin des souffrances à Gaza."
+      },
+      {
+        "question": "Comment puis-je aider Gaza ?",
+        "answer": "Vous pouvez aider Gaza en faisant un don à des organisations humanitaires fiables, en sensibilisant sur les réseaux sociaux, en participant à des actions pacifiques et en priant pour les personnes touchées."
+      },
+      {
+        "question": "Les organisations humanitaires peuvent-elles aider à Gaza ?",
+        "answer": "De nombreuses organisations humanitaires opèrent dans des conditions extrêmement risquées et avec un accès limité. Une partie de l'aide parvient à entrer, mais elle est souvent insuffisante pour répondre aux besoins urgents."
+      },
+      {
+        "question": "Gaza est-elle sûre pour les civils ?",
+        "answer": "Gaza est considérée comme extrêmement dangereuse en période de conflit, les civils étant souvent pris entre les tirs croisés et manquant d'accès à des abris sûrs ou à des soins médicaux."
+      },
+      {
+        "question": "Quel est le rôle de la communauté internationale ?",
+        "answer": "De nombreux membres de la communauté internationale ont appelé à des cessez-le-feu, condamné la violence contre les civils et plaidé pour un accès humanitaire et des solutions durables."
+      },
+      {
+        "question": "Que puis-je faire en plus de faire un don ?",
+        "answer": "Vous pouvez sensibiliser autour de vous, participer à des manifestations pacifiques, contacter des représentants, créer du contenu éducatif et soutenir des politiques promouvant la justice et la paix."
+      }
+    ]
+  },
+  "assistanceStats": {
+    "title": "Depuis le 9 octobre, nous avons fourni une aide aux Palestiniens",
+    "stats": {
+      "food": {
+        "label": "Colis alimentaires livrés",
+        "count": "120 000 personnes"
+      },
+      "medical": {
+        "label": "Aide médicale fournie",
+        "count": "85 000 personnes"
+      },
+      "shelter": {
+        "label": "Abris temporaires installés",
+        "count": "15 000 familles"
+      },
+      "water": {
+        "label": "Accès à l'eau potable rétabli",
+        "count": "60 000 personnes"
+      },
+      "schoolKits": {
+        "label": "Kits scolaires distribués",
+        "count": "25 000 enfants"
+      },
+      "mobileClinics": {
+        "label": "Cliniques mobiles déployées",
+        "count": "200 cliniques"
+      },
+      "hospitalBeds": {
+        "label": "Lits d’hôpital fournis",
+        "count": "1 500 lits"
+      },
+      "infantNutrition": {
+        "label": "Kits nutritionnels pour nourrissons",
+        "count": "10 000 bébés"
+      },
+      "hygieneKits": {
+        "label": "Kits d’hygiène livrés",
+        "count": "75 000 personnes"
+      },
+      "heatingSupplies": {
+        "label": "Fournitures de chauffage distribuées",
+        "count": "30 000 familles"
+      },
+      "reliefConvoys": {
+        "label": "Convois humanitaires envoyés",
+        "count": "480 camions"
+      },
+      "cashSupport": {
+        "label": "Aide financière d’urgence",
+        "count": "18 000 familles"
+      }
+    }
+  }
+}

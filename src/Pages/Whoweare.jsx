@@ -27,7 +27,8 @@ const Whoweare = () => {
         buttonTitle={t("donate.button")}
         buttonLink="/donation"
       />
-      <LifeVerseCard />
+      <LifeVerseCard sentences={[t("verse.text")]} source={t("verse.source")} />
+
       <WhoWeAre />
       <OurApprouch />
       {/* /   <CommitmentSection /> */}

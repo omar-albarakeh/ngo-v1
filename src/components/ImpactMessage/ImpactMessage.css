@@ -1,0 +1,29 @@
+.impact-section {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.impact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.impact-heading {
+  font-size: 2rem;
+  color: #4caf50;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.impact-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.impact-text strong {
+  color: #2e7d32;
+}
