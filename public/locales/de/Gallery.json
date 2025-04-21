@@ -1,0 +1,37 @@
+{
+  "campaigns": {
+    "title": "Unsere Spendenkampagnen",
+    "subtitle": "Entdecken Sie unsere aktuellen und vergangenen Initiativen. Klicken Sie auf ein Projekt, um Bilder anzusehen.",
+    "of": "von",
+    "Ramadan 2025": "Ramadan 2025",
+    "Distribute iftar meals and essential aid during Ramadan 2025.": "Verteilung von Iftar-Mahlzeiten und wichtiger Hilfe während des Ramadan 2025.",
+    "ramadan2025": {
+      "title": "Ramadan 2025",
+      "description": "Verteilung von Iftar-Mahlzeiten und wichtiger Hilfe während des Ramadan 2025."
+    },
+    "waterForGaza": {
+      "title": "Wasser für Gaza",
+      "description": "Zugang zu sauberem Trinkwasser für die Gemeinden in Gaza bereitstellen."
+    },
+    "sosGaza": {
+      "title": "SOS Gaza",
+      "description": "Dringende humanitäre Hilfe und Unterstützung für Bewohner von Gaza."
+    },
+    "zakatAlMaal": {
+      "title": "Zakat Al Maal",
+      "description": "Erfüllen Sie Ihre jährliche Zakat-Pflicht und helfen Sie Bedürftigen."
+    },
+    "orphanSponsorship": {
+      "title": "Waisenkind-Patenschaft",
+      "description": "Übernehmen Sie eine Patenschaft für ein Waisenkind und sichern Sie ihm eine bessere Zukunft."
+    },
+    "rafahEmergency": {
+      "title": "Notfall in Rafah",
+      "description": "Unterstützen Sie Familien, die von der Krise in Rafah betroffen sind."
+    },
+    "ramadanDonations": {
+      "title": "Ramadan-Spenden",
+      "description": "Unterstützen Sie Bedürftige während des Ramadan und helfen Sie mit Ihrer großzügigen Spende, eine bessere Zukunft zu schaffen."
+    }
+  }
+}
