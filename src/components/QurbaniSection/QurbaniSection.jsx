@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import confetti from "canvas-confetti";
 import { gsap } from "gsap";
 import { useTranslation } from "react-i18next";
-import "./QurbaniSection.css";
+import "./QurbaniSection.css"; // Create this CSS if needed
 
 const donationDeadline = new Date("2025-06-06T23:59:59");
 const current = 312;
@@ -62,8 +62,13 @@ const QurbaniDonateBox = () => {
 
   const handleDonate = (amount) => {
     setSelectedTier(amount);
-    alert(t("redirecting", { amount }));
-    // window.location.href = `https://yourdonationlink.com?amount=${amount}`;
+
+    // Save to localStorage
+    localStorage.setItem("donationAmount", amount.toString());
+    localStorage.setItem("donationCause", "aid-al-adha");
+
+    // Redirect to donation page
+    window.location.href = "/donation";
   };
 
   return (

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import "./BottomBar.css";
 import CustomButton from "../NavBar/customButton/customButton";
 
@@ -9,6 +10,10 @@ const BottomBar = () => {
   const [isOpen, setIsOpen] = useState(window.innerWidth > 768);
   const [footerInView, setFooterInView] = useState(false);
 
+  const [amount, setAmount] = useState("");
+  const [cause, setCause] = useState("sos-gaza");
+
+  const navigate = useNavigate();
   const footerRef = useRef(null);
 
   useEffect(() => {
@@ -40,6 +45,12 @@ const BottomBar = () => {
     return () => observer.disconnect();
   }, []);
 
+  const handleDonateClick = () => {
+    localStorage.setItem("donationAmount", amount);
+    localStorage.setItem("donationCause", cause);
+    navigate("/donation");
+  };
+
   const barClass = `bottom-bar ${footerInView ? "bottom-bar-static" : ""}`;
 
   const bottomBarContent = (
@@ -50,9 +61,14 @@ const BottomBar = () => {
         type="number"
         placeholder={t("bottomBar.placeholder")}
         className="bottom-bar-input"
+        value={amount}
+        onChange={(e) => setAmount(e.target.value)}
       />
 
-      <select className="bottom-bar-select">
+      <select
+        className="bottom-bar-select"
+        value={cause}
+        onChange={(e) => setCause(e.target.value)}>
         <option value="sos-gaza">{t("bottomBar.causes.sosGaza")}</option>
         <option value="zakat-al-maal">
           {t("bottomBar.causes.zakatAlMaal")}
@@ -75,7 +91,7 @@ const BottomBar = () => {
         </option>
       </select>
 
-      <CustomButton titleKey={t("bottomBar.donate")} to="/donation" />
+      <CustomButton titleKey="nav.donateNow" to="/donation" />
     </div>
   );
 

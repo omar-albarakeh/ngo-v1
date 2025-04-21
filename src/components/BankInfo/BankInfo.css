@@ -3,60 +3,67 @@
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1rem;
   width: 100%;
-  max-width: 600px;
   margin: auto;
 }
 
 .bank-title {
-  margin-bottom: 10px;
-  font-size: 22px;
-  color: #333;
   text-align: center;
-  width: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.bank-info-line {
+.bank-columns {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
   flex-wrap: wrap;
+}
+
+.bank-section {
+  flex: 1 1 300px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
-  justify-content: center;
-  width: 100%;
+}
+
+.bank-section h3 {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 0.5rem;
 }
 
 .info-inline-item {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  flex: 1 1 100%;
   justify-content: space-between;
-  background-color: #f8f8f8;
+  gap: 0.5rem;
+  background-color: #ffffff;
   padding: 10px;
   border-radius: 8px;
   flex-wrap: wrap;
 }
 
 .info-inline-item strong {
-  flex: 0 0 auto;
-  margin-right: 8px;
+  flex-shrink: 0;
+  color: #333;
 }
 
 .info-value {
-  white-space: nowrap;
-  overflow: auto;
   flex-grow: 1;
+  overflow-x: auto;
+  white-space: nowrap;
+  color: #555;
 }
 
 .copy-button {
-  background: #28a745;
-  border: none;
+  background-color: #28a745;
   color: white;
+  border: none;
   padding: 6px 10px;
   border-radius: 4px;
   cursor: pointer;
@@ -67,32 +74,24 @@
 }
 
 .copy-button:hover {
-  background: #3b874d;
+  background-color: #218838;
   transform: scale(1.05);
 }
 
 .copied-icon {
-  color: #ffffff;
+  color: #fff;
 }
 
-/* MEDIA QUERY: Small screens */
-@media (max-width: 600px) {
-  .bank-info-line {
+@media (max-width: 768px) {
+  .bank-columns {
     flex-direction: column;
-    align-items: stretch;
   }
 
-  .info-inline-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
-  }
-
-  .info-value {
-    word-break: break-word;
-    white-space: normal;
+  .bank-section {
+    width: 100%;
   }
 }
+
 .bank-info-wrapper[dir="rtl"] {
   direction: rtl;
   text-align: right;

@@ -7,6 +7,8 @@ import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
 import { useTranslation } from "react-i18next";
 import BankInfo from "../components/BankInfo/BankInfo";
+import Parallelscreen from "../components/parallelscreen/Donate";
+import DonationPage from "../components/DonationNavigator/DonationNavigator";
 
 const Home = () => {
   const { t } = useTranslation("Donation");
@@ -15,6 +17,7 @@ const Home = () => {
       <TopInfoBar />
       <MyNavBar />
       <BankInfo />
+      <DonationPage />
       <CharityQuote />
       <BacktoTop />
       <Footer />

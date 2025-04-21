@@ -16,7 +16,10 @@ const AidAdhaSection = () => {
         </p>
         <p>{t("aidAdha.paragraph2")}</p>
 
-        <CustomButton titleKey="nav.donateNow" to="/aid-al-adha" />
+        <div className="aid-buttons">
+          <CustomButton titleKey={t("aidAdha.button")} to="/donation" />
+          <CustomButton titleKey={t("aidAdha.learnMore")} to="/aid-al-adha" />
+        </div>
       </div>
       <div className="aid-triangle">
         <img

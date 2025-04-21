@@ -24,15 +24,15 @@ const Home = () => {
       <MyNavBar />
       <HeroSlider />
       <TaxTip />
-      <YouTube />
       <QurbaniSection />
+      <YouTube />
       <AidAdhaSection />
       <ZakatCard />
       <FeatureSection />
       <CardSlider />
+      <DonationBenefits />
       <BacktoTop />
       <MenuItem />
-      <DonationBenefits />
       <CharityQuote />
       <div id="footer-trigger" style={{ height: "0.01px" }}></div>
       <BottomBar />
