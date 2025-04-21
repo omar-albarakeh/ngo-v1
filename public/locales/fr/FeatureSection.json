@@ -1,0 +1,41 @@
+{
+  "features": {
+    "title": "Nos Initiatives Impactantes",
+    "initiatives": [
+      {
+        "id": "adha2024",
+        "title": "🕌 Bénédictions de l'Aïd al-Adha 2024 : Partagez le Sacrifice, Diffusez la Joie",
+        "description": "Votre Qurbani nourrit les affamés ! Cette Aïd, rejoignez-nous pour distribuer de la viande fraîche et nutritive aux familles pauvres, orphelins et réfugiés. Votre sacrifice garantit que les communautés vulnérables célèbrent l'Aïd avec dignité et joie. Chaque don offre des repas sains et de l'espoir aux nécessiteux.",
+        "highlights": [
+          "✅ Nourrir une famille pour l'Aïd",
+          "✅ Soutenir les veuves et les orphelins",
+          "✅ Distribuer de la viande dans les zones de conflit"
+        ],
+        "cta": "Faites un don maintenant et multipliez vos bénédictions !"
+      },
+      {
+        "id": "gazaEmergency",
+        "title": "🚨 Urgence Gaza : Sauvez des vies maintenant !",
+        "description": "Aide urgente pour les familles dévastées de Gaza. La crise humanitaire à Gaza empire chaque jour - des familles ont faim, sont déplacées, et ont un besoin urgent de nourriture, d'eau potable et de soins médicaux. Votre don aujourd'hui fournit un soutien vital.",
+        "supplies": [
+          "🍞 Packs alimentaires d'urgence",
+          "💊 Fournitures médicales critiques",
+          "🛏️ Kits d'abri et de survie"
+        ],
+        "urgency": "Le temps presse - agissez maintenant pour sauver des vies !",
+        "cta": "Faites un don urgent pour Gaza !"
+      },
+      {
+        "id": "ramadanFood",
+        "title": "🌙 Partage de Nourriture pour le Ramadan : Nourrissez les Jeûneurs",
+        "description": "Nourrissez les affamés ce Ramadan. Des millions de personnes vont se coucher affamées en jeûnant. Notre initiative de partage de nourriture pour le Ramadan distribue des repas nutritifs pour l'Iftar et le Suhoor aux familles les plus pauvres, réfugiés et orphelins. Votre générosité apporte des bénédictions et du réconfort à ceux qui luttent pour rompre leur jeûne.",
+        "benefits": [
+          "📦 Paquets alimentaires pour un mois",
+          "🍲 Repas chauds pour l'Iftar",
+          "🫶 Soutenir une famille qui jeûne"
+        ],
+        "cta": "Donnez maintenant et gagnez des récompenses divines !"
+      }
+    ]
+  }
+}

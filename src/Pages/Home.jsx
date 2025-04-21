@@ -5,7 +5,7 @@ import HeroSlider from "../components/HeroSlider/HeroSlider";
 import TaxTip from "../components/TaxTip/TaxTip";
 import YouTube from "../components/Youtube/YouTubeGallery";
 import ZakatCard from "../components/ZakatCard/ZakatCalculator";
-// import FeatureSection from "../components/FeatureSection/FeatureSection";
+import FeatureSection from "../components/FeatureSection/FeatureSection";
 // import CardSlider from "../components/cardSlider3d/cardSlider3d";
 // import MenuItem from "../components/MenuItem/MenuItem";
 // import BacktoTop from "../components/BackToTopButton/BackToTop";
@@ -22,8 +22,8 @@ const Home = () => {
       <TaxTip />
       <ZakatCard />
       <YouTube />
-      {/*<FeatureSection />
-      <CardSlider />
+      <FeatureSection />
+      {/*<CardSlider />
       <MenuItem />
       <CharityQuote />
       <BacktoTop />

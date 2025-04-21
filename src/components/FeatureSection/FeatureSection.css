@@ -1,0 +1,123 @@
+/* Feature Section */
+.feature-container {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.625rem 2.5rem rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.activities-title {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #222;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+.feature-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.4s ease;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-image {
+  flex: 1 1 30%;
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 0.75rem 1.875rem rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
+}
+
+.feature-text {
+  flex: 1 1 65%;
+  min-width: 17.5rem;
+  max-width: 40rem;
+}
+
+.feature-text h2 {
+  font-size: clamp(1.25rem, 3vw, 1.625rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111;
+  letter-spacing: 0.03rem;
+}
+
+.feature-text p {
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.feature-points {
+  margin: 1.25rem 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: clamp(0.875rem, 2.5vw, 0.9375rem);
+  color: #444;
+  line-height: 1.6;
+}
+
+.feature-points li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+
+.urgency-text {
+  color: #d62828;
+  font-weight: 700;
+  font-size: clamp(0.875rem, 2.5vw, 0.9375rem);
+  margin-bottom: 1.25rem;
+}
+
+.FeatureButton {
+  margin-top: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 56.25rem) {
+  .feature-row {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .feature-image {
+    max-width: 16rem;
+    margin: 0 auto;
+  }
+
+  .feature-text {
+    width: 100%;
+    padding: 0 1rem;
+    max-width: 100%;
+  }
+
+  .feature-points {
+    text-align: left;
+  }
+}

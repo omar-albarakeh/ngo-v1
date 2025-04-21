@@ -1,0 +1,41 @@
+{
+  "features": {
+    "title": "Unsere Wirkungsvolle Initiativen",
+    "initiatives": [
+      {
+        "id": "adha2024",
+        "title": "🕌 Segnungen von Adha 2024: Teile das Opfer, Verbreite Freude",
+        "description": "Dein Qurbani ernährt die Hungrigen! Dieses Adha, schließe dich uns an, um frisches, nahrhaftes Fleisch an arme Familien, Waisen und Flüchtlinge zu verteilen. Dein Opfer sorgt dafür, dass benachteiligte Gemeinschaften das Eid mit Würde und Freude feiern. Jede Spende liefert nahrhafte Mahlzeiten und Hoffnung für Bedürftige.",
+        "highlights": [
+          "✅ Eine Familie für Eid ernähren",
+          "✅ Witwen und Waisen unterstützen",
+          "✅ Fleisch in Konfliktzonen verteilen"
+        ],
+        "cta": "Spende jetzt und multipliziere deine Segnungen!"
+      },
+      {
+        "id": "gazaEmergency",
+        "title": "🚨 Notfallhilfe Gaza: Rettet Leben jetzt!",
+        "description": "Dringende Hilfe für Gazas zerstörte Familien. Die humanitäre Krise in Gaza verschärft sich täglich – Familien sind hungrig, vertrieben und dringend auf Nahrung, sauberes Wasser und medizinische Versorgung angewiesen. Deine Spende heute bietet lebensrettende Unterstützung.",
+        "supplies": [
+          "🍞 Notfall-Lebensmittelpakete",
+          "💊 Kritische medizinische Hilfsmittel",
+          "🛏️ Notunterkünfte und Überlebenspakete"
+        ],
+        "urgency": "Die Zeit läuft ab – handle jetzt, um Leben zu retten!",
+        "cta": "Spende dringend für Gaza!"
+      },
+      {
+        "id": "ramadanFood",
+        "title": "🌙 Ramadan Lebensmittelspende: Ernähre die Fastenden",
+        "description": "Ernähre die Hungrigen in diesem Ramadan. Millionen gehen hungrig zu Bett, während sie fasten. Unsere Ramadan-Lebensmittelspende liefert nahrhafte Iftar- und Suhoor-Mahlzeiten an die ärmsten Familien, Flüchtlinge und Waisen. Deine Großzügigkeit bringt Segnungen und Erleichterung für diejenigen, die mit dem Fasten kämpfen.",
+        "benefits": [
+          "📦 Lebensmittelpakete für einen Monat",
+          "🍲 Warme Mahlzeiten für Iftar",
+          "🫶 Eine fastende Familie unterstützen"
+        ],
+        "cta": "Gib jetzt und verdiene göttliche Belohnungen!"
+      }
+    ]
+  }
+}

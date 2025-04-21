@@ -1,0 +1,41 @@
+{
+  "features": {
+    "title": "Our Impactful Initiatives",
+    "initiatives": [
+      {
+        "id": "adha2024",
+        "title": "🕌 Blessings of Adha 2024: Share the Sacrifice, Spread Joy",
+        "description": "Your Qurbani Feeds the Hungry! This Adha, join us in delivering fresh, nutritious meat to impoverished families, orphans, and refugees. Your sacrifice ensures that vulnerable communities celebrate Eid with dignity and joy. Every donation provides wholesome meals and hope to those in need.",
+        "highlights": [
+          "✅ Feed a family for Eid",
+          "✅ Support widows & orphans",
+          "✅ Distribute meat in conflict zones"
+        ],
+        "cta": "Donate Now & Multiply Your Blessings!"
+      },
+      {
+        "id": "gazaEmergency",
+        "title": "🚨 Emergency Gaza Relief: Save Lives Now!",
+        "description": "Urgent Aid for Gaza’s Devastated Families. The humanitarian crisis in Gaza worsens daily—families are starving, displaced, and in desperate need of food, clean water, and medical care. Your donation today provides life-saving support.",
+        "supplies": [
+          "🍞 Emergency food packs",
+          "💊 Critical medical supplies",
+          "🛏️ Shelter & survival kits"
+        ],
+        "urgency": "Time is running out—act now to save lives!",
+        "cta": "Donate Urgently for Gaza!"
+      },
+      {
+        "id": "ramadanFood",
+        "title": "🌙 Ramadan Food Sharing: Nourish the Fasting",
+        "description": "Feed the Hungry This Ramadan. Millions go to bed hungry while fasting. Our Ramadan Food Sharing initiative delivers nutritious Iftar & Suhoor meals to the poorest families, refugees, and orphans. Your generosity brings blessings and relief to those struggling to break their fast.",
+        "benefits": [
+          "📦 Food parcels for a month",
+          "🍲 Hot meals for Iftar",
+          "🫶 Support a fasting family"
+        ],
+        "cta": "Give Now & Earn Divine Rewards!"
+      }
+    ]
+  }
+}
