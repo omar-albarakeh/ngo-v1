@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 const useSliderImages = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("card3d");
 
   return [
     {

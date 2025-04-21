@@ -2,8 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import { useSwipeable } from "react-swipeable";
 import "./cardSlider3d.css";
 import useSliderImages from "./cardSliderData";
+import { useTranslation } from "react-i18next";
 
 const CardSlider = () => {
+  const { t } = useTranslation("card3d");
   const images = useSliderImages();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
@@ -91,7 +93,7 @@ const CardSlider = () => {
 
   return (
     <div className="slider-container">
-      <h1 className="slider-heading">🌍 Donate to Causes That Matter 🌍</h1>
+      <h1 className="slider-heading">{t("sliderB.title")}</h1>
 
       <div
         className="slider-wrapper"
