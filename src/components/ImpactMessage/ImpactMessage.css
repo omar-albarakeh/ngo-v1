@@ -1,13 +1,13 @@
 .impact-section {
   background-color: #ffffff;
   padding: 4rem 2rem;
-  text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
+  text-align: center;
 }
 
 .impact-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -26,4 +26,24 @@
 
 .impact-text strong {
   color: #2e7d32;
+}
+
+.impact-images {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.impact-img {
+  width: 48%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .impact-img {
+    width: 100%;
+  }
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import confetti from "canvas-confetti";
 import { gsap } from "gsap";
 import { useTranslation } from "react-i18next";
-import "./QurbaniSection.css"; // Create this CSS if needed
+import "./QurbaniSection.css";
 
 const donationDeadline = new Date("2025-06-06T23:59:59");
 const current = 312;

@@ -18,6 +18,18 @@ const ImpactMessage = () => {
           need. With Human Appeal, your contribution is direct, far-reaching,
           and makes an immediate difference on the ground in Gaza.
         </p>
+        <div className="impact-images">
+          <img
+            src="/images/textandimage/impact2.jpeg"
+            alt="Impact 1"
+            className="impact-img"
+          />
+          <img
+            src="/images/textandimage/impact1.jpeg"
+            alt="Impact 2"
+            className="impact-img"
+          />
+        </div>
       </div>
     </section>
   );

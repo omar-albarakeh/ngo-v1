@@ -1,6 +1,6 @@
 :root {
   --top-bg: #f2ede4;
-  --text-color: #000000;
+  --text-color1: #ffffff;
   --icon-color: #999;
   --primary-green: #4caf50;
   --secondary-green: #388e3c;
@@ -48,15 +48,15 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  max-width: 700px;
+  max-width: 900px;
   width: 100%;
-  color: var(--text-color);
+  color: var(--text-color1);
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   animation: fadeInUp 1s ease forwards;
 }
 
 .hero-text-box {
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(0, 0, 0, 0.72);
   padding: 1rem 1.25rem;
   border-radius: 0.875rem;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
@@ -68,7 +68,7 @@
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: bold;
   margin: 0;
-  color: var(--text-color);
+  color: var(--primary-green);
 }
 
 .hero-subtitle {

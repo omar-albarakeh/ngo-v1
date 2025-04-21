@@ -1,0 +1,59 @@
+.zakat-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f8fdf8;
+  border: 1px solid #cceccc;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #ccc;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.results {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.zakat-due {
+  color: green;
+  font-weight: bold;
+}
+
+.no-zakat {
+  color: darkred;
+}
+
+.info-toggle {
+  margin-top: 1.5rem;
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.info-box {
+  margin-top: 1rem;
+  background-color: #eefaf1;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #b2e6b2;
+}

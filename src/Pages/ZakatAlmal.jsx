@@ -13,6 +13,8 @@ import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
 import zakatData from "../components/FAQAccordion/faqData/zakat.json";
 import FAQAccordion from "../components/FAQAccordion/FAQAccordion";
+import ZakatInfo from "../components/ZakatInfo/ZakatInfo";
+import ZakatCalculator from "../components/ZakatCalculator/ZakatCalculator";
 
 const ZakatAlmal = () => {
   return (
@@ -20,6 +22,7 @@ const ZakatAlmal = () => {
       <TopInfoBar />
       <MyNavBar />
       <h1>zakat-al-maal</h1>
+      <ZakatCalculator />
       <FAQAccordion title="Zakat FAQ" faqList={zakatData} />
       <MenuItem />
       <CharityQuote />
