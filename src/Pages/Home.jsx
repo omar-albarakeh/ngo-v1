@@ -20,8 +20,8 @@ const Home = () => {
       <MyNavBar />
       <HeroSlider />
       <TaxTip />
-      <YouTube />
       <ZakatCard />
+      <YouTube />
       {/*<FeatureSection />
       <CardSlider />
       <MenuItem />
