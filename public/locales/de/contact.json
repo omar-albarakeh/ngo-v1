@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "description": "Wir freuen uns, von Ihnen zu hören und gemeinsam etwas zu bewegen!",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Schreiben Sie hier Ihre Nachricht...",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "recaptchaNote": "Diese Seite ist durch reCAPTCHA und den Google-Dienst geschützt",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "successMessage": "✅ Danke für Ihre Nachricht!",
+    "sendAnother": "Weitere Nachricht senden",
+    "goHome": "Zur Startseite",
+    "captchaFailed": "Captcha-Verifizierung fehlgeschlagen. Bitte versuchen Sie es erneut."
+  }
+}

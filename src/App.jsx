@@ -5,7 +5,7 @@ import "./i18n";
 import Home from "./Pages/Home";
 import { useTranslation } from "react-i18next";
 // import Whoweare from "./Pages/Whoweare";
-// import Contact from "./Pages/Contact/ContactComponent";
+import Contact from "./Pages/Contact/ContactComponent";
 // import History from "./Pages/History";
 // import Gallery from "./Pages/Gallery";
 // import SOSGaza from "./Pages/SOSGaza";
@@ -34,8 +34,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/Contact" element={<Contact />} />
-        <Route path="/WhoWeAre" element={<Whoweare />} />
+        <Route path="/Contact" element={<Contact />} />
+        {/*<Route path="/WhoWeAre" element={<Whoweare />} />
         <Route path="/history" element={<History />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/sos-gaza" element={<SOSGaza />} />

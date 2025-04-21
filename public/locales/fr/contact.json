@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Nous serions ravis de vous entendre et de collaborer pour le changement !",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Écrivez votre message ici...",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "recaptchaNote": "Ce site est protégé par reCAPTCHA et le service Google",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "successMessage": "✅ Merci pour votre message !",
+    "sendAnother": "Envoyer un autre message",
+    "goHome": "Aller à la page d'accueil",
+    "captchaFailed": "Échec de la vérification Captcha. Veuillez réessayer."
+  }
+}

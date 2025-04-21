@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "title": "Contact Us",
+    "description": "we’d love to hear from you and collaborate for change!",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "recaptchaNote": "This site is protected by reCAPTCHA and the Google",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "successMessage": "✅ Thanks for your message!",
+    "sendAnother": "Send Another Message",
+    "goHome": "Go to Homepage",
+    "captchaFailed": "Captcha verification failed. Please try again."
+  }
+}
