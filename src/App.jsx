@@ -6,7 +6,7 @@ import Home from "./Pages/Home";
 import { useTranslation } from "react-i18next";
 import Whoweare from "./Pages/Whoweare";
 import Contact from "./Pages/Contact/ContactComponent";
-// import History from "./Pages/History";
+import History from "./Pages/History";
 import Gallery from "./Pages/Gallery";
 // import SOSGaza from "./Pages/SOSGaza";
 // import ZakatAlmal from "./Pages/ZakatAlmal";
@@ -37,8 +37,8 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/WhoWeAre" element={<Whoweare />} />
-        {/*
         <Route path="/history" element={<History />} />
+        {/*
         <Route path="/sos-gaza" element={<SOSGaza />} />
         <Route path="/zakat-al-maal" element={<ZakatAlmal />} />
         <Route path="/ramadan-2025" element={<Ramadan2025 />} />
