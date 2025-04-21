@@ -5,5 +5,12 @@
     "impact": "⚡ Sofortige Wirkung – Ihre Hilfe rettet heute Leben.",
     "reward": "🖤 Mehrfache Belohnung – Spenden Sie in heiligen Zeiten für größere Segnungen."
   },
-  "finalCta": "Spenden Sie jetzt und seien Sie ein Licht der Hoffnung!"
+  "finalCta": "Spenden Sie jetzt und seien Sie ein Licht der Hoffnung!",
+  "bankInfo": {
+    "title": "Bankkontoinformationen",
+    "ibanLabel": "IBAN",
+    "bicLabel": "BIC",
+    "copyIban": "IBAN kopieren",
+    "copyBic": "BIC kopieren"
+  }
 }

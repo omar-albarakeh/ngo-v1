@@ -32,7 +32,6 @@ const Home = () => {
       <CharityQuote />
       <div id="footer-trigger" style={{ height: "0.01px" }}></div>
       <BottomBar />
-      <BankInfo />
       <Footer />
     </>
   );

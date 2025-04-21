@@ -5,5 +5,12 @@
     "impact": "⚡ Impact immédiat – Votre aide sauve des vies aujourd'hui.",
     "reward": "🖤 Récompense multipliée – Donnez pendant les périodes sacrées pour plus de bénédictions."
   },
-  "finalCta": "Faites un don maintenant et soyez une lumière d'espoir !"
+  "finalCta": "Faites un don maintenant et soyez une lumière d'espoir !",
+  "bankInfo": {
+    "title": "Informations Bancaires",
+    "ibanLabel": "IBAN",
+    "bicLabel": "BIC",
+    "copyIban": "Copier l'IBAN",
+    "copyBic": "Copier le BIC"
+  }
 }

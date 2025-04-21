@@ -4,39 +4,60 @@
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 2rem;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
 }
 
 .bank-title {
-  margin-bottom: 15px;
-  font-size: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
   color: #333;
+  text-align: center;
+  width: 100%;
 }
 
 .bank-info-line {
   display: flex;
-  align-items: center;
-  gap: 2rem;
+  flex-direction: row;
   flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
 }
 
 .info-inline-item {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex: 1 1 100%;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.info-inline-item strong {
+  flex: 0 0 auto;
+  margin-right: 8px;
 }
 
 .info-value {
   white-space: nowrap;
+  overflow: auto;
+  flex-grow: 1;
 }
 
 .copy-button {
   background: #28a745;
   border: none;
   color: white;
-  padding: 4px 8px;
+  padding: 6px 10px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
@@ -52,4 +73,23 @@
 
 .copied-icon {
   color: #ffffff;
+}
+
+/* MEDIA QUERY: Small screens */
+@media (max-width: 600px) {
+  .bank-info-line {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .info-inline-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .info-value {
+    word-break: break-word;
+    white-space: normal;
+  }
 }

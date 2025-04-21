@@ -5,5 +5,12 @@
     "impact": "⚡ Immediate Impact – Your help saves lives today.",
     "reward": "🖤 Multiplied Reward – Donate during sacred times for greater blessings."
   },
-  "finalCta": "Donate now and be a light of hope!"
+  "finalCta": "Donate now and be a light of hope!",
+  "bankInfo": {
+    "title": "Bank Account Information",
+    "ibanLabel": "IBAN",
+    "bicLabel": "BIC",
+    "copyIban": "Copy IBAN",
+    "copyBic": "Copy BIC"
+  }
 }
