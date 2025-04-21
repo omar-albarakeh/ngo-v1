@@ -1,7 +1,8 @@
-/* === Container === */
+/* ========== Base Container ========== */
 .slider-container {
   width: 100%;
-  min-height: 100vh;
+  max-width: 80vw;
+  min-height: 80vh;
   padding: clamp(2rem, 5vw, 3.75rem) clamp(1rem, 4vw, 1.25rem);
   display: flex;
   flex-direction: column;
@@ -9,9 +10,10 @@
   background: #f9f9f9;
   overflow: hidden;
   position: relative;
+  margin: auto;
 }
 
-/* === Headings === */
+/* ========== Headings ========== */
 .slider-heading {
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -23,9 +25,9 @@
 .slider-heading:nth-of-type(1) {
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   font-weight: 700;
-  color: #2e7d32;
+  color: #0f3111;
   margin-bottom: clamp(1rem, 3vw, 2rem);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  text-shadow: 0.063rem 0.063rem 0.188rem rgba(0, 0, 0, 0.05);
   position: relative;
 }
 
@@ -36,7 +38,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: clamp(5rem, 12vw, 8rem);
-  height: 4px;
+  height: 0.25rem;
   background: linear-gradient(90deg, #4caf50, #81c784);
   border-radius: 1rem;
 }
@@ -46,55 +48,68 @@
   font-weight: 400;
   font-style: italic;
   color: #444;
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto clamp(2rem, 4vw, 3rem);
   padding: 0 1rem;
 }
 
-/* === Animation === */
+/* ========== Animation ========== */
 @keyframes fadeInUp {
   0% {
-    transform: translateY(20px);
+    transform: translateY(1.25rem);
     opacity: 0;
   }
   100% {
-    transform: translateY(0px);
+    transform: translateY(0);
     opacity: 1;
   }
 }
-.slide-overlay h5 {
-  font-size: clamp(0.4rem, 1vw, 0.3rem);
-  font-weight: 600;
-  margin: 0.5rem 0;
+
+/* ========== Main Heading & Subheading ========== */
+.slider-heading-title {
+  font-size: clamp(2rem, 7vw, 2.5rem);
+  font-weight: 700;
+  color: #111;
+  margin-bottom: clamp(1.5rem, 4vw, 2rem);
+  text-align: center;
+  position: relative;
 }
 
-/* === Slider Wrapper === */
+.slider-heading-sub {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+/* ========== Slider Wrapper & Slide ========== */
 .slider-wrapper {
   position: relative;
   width: 100%;
   max-width: 75rem;
-  height: clamp(20rem, 45vw, 34.375rem);
+  height: clamp(20rem, 45vw, 30rem);
   display: flex;
   align-items: center;
   justify-content: center;
-  perspective: 2000px;
+  perspective: 150rem;
   margin-bottom: clamp(1.5rem, 4vw, 3rem);
 }
 
-/* === Slide === */
 .slide {
   position: absolute;
   width: clamp(12rem, 25vw, 20rem);
   height: clamp(16rem, 35vw, 27.5rem);
   border-radius: 1.25rem;
   overflow: hidden;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.563rem 3.125rem rgba(0, 0, 0, 0.15);
   background: #fff;
   transform-style: preserve-3d;
   transition: all 0.7s ease;
 }
 
-/* Slide Image */
 .slide-image {
   width: 100%;
   height: 100%;
@@ -102,22 +117,28 @@
   min-height: 6rem;
 }
 
-/* Slide Overlay */
+/* ========== Slide Overlay ========== */
 .slide-overlay {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 80%;
   padding: 1rem;
   background: rgba(0, 0, 0, 0.55);
   color: #fff;
   font-size: clamp(0.9rem, 2vw, 1.1rem);
   font-weight: 600;
   text-align: center;
-  backdrop-filter: blur(6px);
+
   border-radius: 0 0 1.25rem 1.25rem;
 }
 
-/* Slide Glow */
+.slide-overlay h5 {
+  font-size: clamp(0.4rem, 0.5vw, 1rem);
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+/* ========== Glow Effect ========== */
 .slide-glow {
   position: absolute;
   top: 0;
@@ -131,21 +152,21 @@
   pointer-events: none;
 }
 
-/* === Arrows === */
+/* ========== Arrows ========== */
 .slider-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3rem;
-  height: 3rem;
   background-color: #4caf50;
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, background-color 0.3s ease;
   z-index: 10;
 }
@@ -171,11 +192,11 @@
   right: 1rem;
 }
 
-/* === Dots === */
+/* ========== Dots ========== */
 .slider-dots {
   display: flex;
   justify-content: center;
-  gap: 0.875rem;
+  gap: 0.575rem;
   margin-top: -0.5rem;
 }
 
@@ -194,7 +215,7 @@
   transform: scale(1.35);
 }
 
-/* === Autoplay Toggle (if used) === */
+/* ========== Autoplay Toggle ========== */
 .autoplay-toggle {
   margin-top: 1.5rem;
   padding: 0.75rem 1.75rem;
@@ -205,46 +226,15 @@
   border: none;
   border-radius: 2rem;
   cursor: pointer;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.375rem 0.938rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
+
 .autoplay-toggle:hover {
   transform: scale(1.07);
 }
-/* Main heading (h1) */
-.slider-heading-title {
-  font-size: clamp(2rem, 7vw, 4rem);
-  font-weight: 700;
-  color: #111;
-  margin-bottom: clamp(1.5rem, 4vw, 2rem);
-  text-align: center;
-  position: relative;
-}
 
-.slider-heading-title::after {
-  content: "";
-  position: absolute;
-  bottom: -0.75rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: clamp(5rem, 10vw, 8rem);
-  height: 0.25rem;
-  background: linear-gradient(90deg, #4caf50, #4caf50);
-  border-radius: 0.125rem;
-}
-
-/* Subheading (h5) */
-.slider-heading-sub {
-  font-size: clamp(1rem, 2.5vw, 1.5rem);
-  font-weight: 500;
-  color: #444;
-  text-align: center;
-  margin-top: -1rem;
-  margin-bottom: 2rem;
-  line-height: 1.4;
-}
-
-/* === Responsive === */
+/* ========== Responsive ========== */
 @media (max-width: 768px) {
   .slider-wrapper {
     height: 25rem;

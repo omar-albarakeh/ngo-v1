@@ -14,6 +14,8 @@ import BankInfo from "../components/BankInfo/BankInfo";
 import CharityQuote from "../components/CharityQuote/CharityQuote";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
+import QurbaniSection from "../components/QurbaniSection/QurbaniSection";
+import AidAdhaSection from "../components/AidAdhaSection/AidAdhaSection";
 
 const Home = () => {
   return (
@@ -22,8 +24,10 @@ const Home = () => {
       <MyNavBar />
       <HeroSlider />
       <TaxTip />
-      <ZakatCard />
       <YouTube />
+      <QurbaniSection />
+      <AidAdhaSection />
+      <ZakatCard />
       <FeatureSection />
       <CardSlider />
       <BacktoTop />

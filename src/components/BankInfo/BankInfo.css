@@ -93,3 +93,7 @@
     white-space: normal;
   }
 }
+.bank-info-wrapper[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}

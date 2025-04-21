@@ -9,8 +9,8 @@ const DonationBenefits = () => {
   const { t } = useTranslation(["donationBenefits", "bankInfo"]);
   const [copied, setCopied] = useState("");
 
-  const iban = "FR76 3000 3024 3300 0506 1175 910";
-  const bic = "SOGEFRPP";
+  const ibanFrance = "FR76 3000 3024 3300 0506 1175 910";
+  const ibanSwitzerland = "CH20 0070 0114 9025 3157 1";
 
   const handleCopy = async (text, label) => {
     try {
@@ -54,8 +54,8 @@ const DonationBenefits = () => {
       <div className="bank-info-box">
         <h3 className="bank-info-title">{t("bankInfo.title")}</h3>
         <div className="bank-info-line">
-          <InfoItem label="Iban" value={iban} />
-          <InfoItem label="Bic" value={bic} />
+          <InfoItem label="IBAN_FR" value={ibanFrance} />
+          <InfoItem label="IBAN_CH" value={ibanSwitzerland} />
         </div>
       </div>
 

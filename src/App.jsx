@@ -16,6 +16,7 @@ import Aidaladha from "./Pages/Aidaladha";
 import Orphansponsorship from "./Pages/Orphansponsorship";
 import Waterforgaza from "./Pages/Waterforgaza";
 import Ramadandonations from "./Pages/Ramadandonations";
+import Donations from "./Pages/Donation";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/orphan-sponsorship" element={<Orphansponsorship />} />
         <Route path="/water-for-gaza" element={<Waterforgaza />} />
         <Route path="/ramadan-donations" element={<Ramadandonations />} />
+        <Route path="/donation" element={<Donations />} />
       </Routes>
     </Router>
   );

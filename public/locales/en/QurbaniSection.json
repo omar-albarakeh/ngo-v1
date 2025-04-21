@@ -1,0 +1,14 @@
+{
+  "timeLeft": "left to donate for Eid 2025",
+  "goalText": "Goal: Feed {{goal}} families – {{current}} funded ✅",
+  "milestone": {
+    "100": "💯 Over 100 families reached!",
+    "300": "🔥 300+ funded! Almost there!"
+  },
+  "donationTier": {
+    "goat": "1 Goat",
+    "share": "Cow Share",
+    "full": "Full Cow"
+  },
+  "redirecting": "Redirecting to donate ${{amount}}..."
+}

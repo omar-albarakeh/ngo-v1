@@ -1,0 +1,14 @@
+{
+  "timeLeft": "restants pour faire un don pour l'Aïd 2025",
+  "goalText": "Objectif : Nourrir {{goal}} familles – {{current}} financées ✅",
+  "milestone": {
+    "100": "💯 Plus de 100 familles atteintes !",
+    "300": "🔥 Plus de 300 financées ! Presque terminé !"
+  },
+  "donationTier": {
+    "goat": "1 Chèvre",
+    "share": "Part de vache",
+    "full": "Vache entière"
+  },
+  "redirecting": "Redirection vers le don de ${{amount}}..."
+}

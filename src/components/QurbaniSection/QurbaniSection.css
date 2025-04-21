@@ -1,0 +1,56 @@
+.donate-box {
+  background: #f0fdf4;
+  border: 2px solid #16a34a;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
+}
+
+.progress-bar-container {
+  margin: 1rem 0;
+}
+
+.progress-text {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #065f46;
+}
+
+.progress-bar {
+  height: 1rem;
+  width: 100%;
+  background: #d1fae5;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #16a34a;
+  transition: width 0.4s ease;
+}
+
+.donation-tiers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.donate-tier-btn {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donate-tier-btn:hover {
+  background-color: #15803d;
+}

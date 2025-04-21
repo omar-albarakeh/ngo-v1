@@ -1,9 +1,15 @@
 {
-  "bankInfo": {
-    "title": "Informations Bancaires",
-    "ibanLabel": "IBAN",
-    "bicLabel": "BIC",
-    "copyIban": "Copier l'IBAN",
-    "copyBic": "Copier le BIC"
+  "title": "Informations bancaires",
+  "france": "France",
+  "switzerland": "Suisse",
+  "labels": {
+    "IBAN_FR": "IBAN (France)",
+    "BIC_FR": "BIC (France)",
+    "IBAN_CH": "IBAN (Suisse)"
+  },
+  "copy": {
+    "IBAN_FR": "Copier l'IBAN (France)",
+    "BIC_FR": "Copier le BIC (France)",
+    "IBAN_CH": "Copier l'IBAN (Suisse)"
   }
 }

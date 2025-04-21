@@ -58,7 +58,7 @@ const YouTubeGallery = () => {
         <button
           className={`scroll-btn left ${canScrollLeft ? "" : "disabled"}`}
           onClick={() => handleScroll("left")}>
-          ◀
+          &lt;
         </button>
 
         <div className="scroll-wrapper">
@@ -72,7 +72,7 @@ const YouTubeGallery = () => {
         <button
           className={`scroll-btn right ${canScrollRight ? "" : "disabled"}`}
           onClick={() => handleScroll("right")}>
-          ▶
+          &gt;
         </button>
       </div>
     </div>

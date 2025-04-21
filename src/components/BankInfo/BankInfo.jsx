@@ -5,12 +5,8 @@ import { faCopy, faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import "./BankInfo.css";
 
 const BankInfo = () => {
-  const { t } = useTranslation("bankInfo");
+  const { t, i18n } = useTranslation("bankInfo");
   const [copied, setCopied] = useState("");
-
-  // Your actual data
-  const iban = "FR76 3000 3024 3300 0506 1175 910";
-  const bic = "SOGEFRPP";
 
   const handleCopy = async (text, label) => {
     try {
@@ -22,15 +18,15 @@ const BankInfo = () => {
     }
   };
 
-  const InfoItem = ({ label, value }) => (
+  const InfoItem = ({ labelKey, value }) => (
     <div className="info-inline-item">
-      <strong>{label}:</strong>
+      <strong>{t(`labels.${labelKey}`)}:</strong>
       <span className="info-value">{value}</span>
       <button
-        onClick={() => handleCopy(value, label)}
+        onClick={() => handleCopy(value, labelKey)}
         className="copy-button"
-        title={t(`bankInfo.copy${label}`)}>
-        {copied === label ? (
+        title={t(`copy.${labelKey}`)}>
+        {copied === labelKey ? (
           <FontAwesomeIcon icon={faCheckCircle} className="copied-icon" />
         ) : (
           <FontAwesomeIcon icon={faCopy} />
@@ -40,11 +36,23 @@ const BankInfo = () => {
   );
 
   return (
-    <div className="bank-info-wrapper">
-      <h2 className="bank-title">{t("bankInfo.title")}</h2>
-      <div className="bank-info-line">
-        <InfoItem label="Iban" value={iban} />
-        <InfoItem label="Bic" value={bic} />
+    <div
+      className="bank-info-wrapper"
+      dir={i18n.language === "ar" ? "rtl" : "ltr"}>
+      <h2 className="bank-title">{t("title")}</h2>
+
+      <div className="bank-country-section">
+        <h3>{t("france")}</h3>
+        <InfoItem
+          labelKey="IBAN_FR"
+          value="FR76 3000 3024 3300 0506 1175 910"
+        />
+        <InfoItem labelKey="BIC_FR" value="SOGEFRPP" />
+      </div>
+
+      <div className="bank-country-section">
+        <h3>{t("switzerland")}</h3>
+        <InfoItem labelKey="IBAN_CH" value="CH20 0070 0114 9025 3157 1" />
       </div>
     </div>
   );
