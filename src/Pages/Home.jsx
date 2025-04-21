@@ -10,9 +10,10 @@ import CardSlider from "../components/cardSlider3d/cardSlider3d";
 import DonationBenefits from "../components/DonationBenefits/DonationBenefits";
 import MenuItem from "../components/MenuItem/MenuItem";
 import BacktoTop from "../components/BackToTopButton/BackToTop";
-// import CharityQuote from "../components/CharityQuote/CharityQuote";
-// import Footer from "../components/Footer/Footer";
-// import BottomBar from "../components/BottomBar/BottomBar";
+import BankInfo from "../components/BankInfo/BankInfo";
+import CharityQuote from "../components/CharityQuote/CharityQuote";
+import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/BottomBar/BottomBar";
 
 const Home = () => {
   return (
@@ -25,13 +26,14 @@ const Home = () => {
       <YouTube />
       <FeatureSection />
       <CardSlider />
-      <DonationBenefits />
       <BacktoTop />
       <MenuItem />
-      {/*<CharityQuote />
-      <BottomBar />
+      <DonationBenefits />
+      <CharityQuote />
       <div id="footer-trigger" style={{ height: "0.01px" }}></div>
-      <Footer /> */}
+      <BottomBar />
+      <BankInfo />
+      <Footer />
     </>
   );
 };

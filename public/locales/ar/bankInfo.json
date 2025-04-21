@@ -1,0 +1,9 @@
+{
+  "bankInfo": {
+    "title": "معلومات الحساب البنكي",
+    "ibanLabel": "رقم الآيبان",
+    "bicLabel": "رمز BIC",
+    "copyIban": "نسخ رقم الآيبان",
+    "copyBic": "نسخ رمز BIC"
+  }
+}

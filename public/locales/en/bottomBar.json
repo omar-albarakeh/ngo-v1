@@ -1,0 +1,19 @@
+{
+  "bottomBar": {
+    "close": "× Close",
+    "donate": " Donate",
+    "title": "Make a Difference Today:",
+    "placeholder": "Enter amount",
+    "donateNow": "Donate Now",
+    "causes": {
+      "sosGaza": "SOS Gaza",
+      "zakatAlMaal": "Zakat Al-Maal",
+      "ramadan2025": "Ramadan 2025",
+      "rafahEmergency": "Rafah Emergency",
+      "aidAlAdha": "Aid Al-Adha",
+      "orphanSponsorship": "Orphan Sponsorship",
+      "waterForGaza": "Water for Gaza",
+      "ramadanDonations": "Ramadan Donations"
+    }
+  }
+}

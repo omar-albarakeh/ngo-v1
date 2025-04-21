@@ -1,0 +1,9 @@
+{
+  "bankInfo": {
+    "title": "Bank Account Information",
+    "ibanLabel": "IBAN",
+    "bicLabel": "BIC",
+    "copyIban": "Copy IBAN",
+    "copyBic": "Copy BIC"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bottomBar": {
+    "close": "× Fermer",
+    "donate": " Faire un don",
+    "title": "Faites la différence aujourd'hui :",
+    "placeholder": "Entrez le montant",
+    "donateNow": "Faire un don maintenant",
+    "causes": {
+      "sosGaza": "SOS Gaza",
+      "zakatAlMaal": "Zakat Al-Mal",
+      "ramadan2025": "Ramadan 2025",
+      "rafahEmergency": "Urgence Rafah",
+      "aidAlAdha": "Aïd Al-Adha",
+      "orphanSponsorship": "Parrainage d’orphelins",
+      "waterForGaza": "Eau pour Gaza",
+      "ramadanDonations": "Dons de Ramadan"
+    }
+  }
+}

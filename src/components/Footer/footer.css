@@ -1,0 +1,177 @@
+.footer {
+  background-color: #f2ede4;
+  color: var(--text-color);
+  padding: 40px 20px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col {
+  flex: 1 1 300px;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.footer-col h5 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+/* --- Logos and Socials --- */
+.logos-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logos {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.logos img {
+  height: 60px;
+  object-fit: contain;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.follow-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.social-icons a img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+/* --- Contact Section --- */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.contact-list i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.contact-list a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+  color: var(--primary-green);
+}
+
+/* --- Newsletter Section --- */
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+}
+
+.newsletter-form button {
+  background-color: var(--primary-green);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #449f48;
+}
+
+/* 📱 Responsive Enhancements */
+@media (max-width: 760px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .footer-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .logos {
+    justify-content: center;
+  }
+
+  .contact-list li {
+    justify-content: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .follow-label {
+    text-align: center;
+  }
+}

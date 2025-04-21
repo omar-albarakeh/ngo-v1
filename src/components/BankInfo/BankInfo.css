@@ -1,0 +1,55 @@
+.bank-info-wrapper {
+  background-color: var(--bg-color);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.bank-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.bank-info-line {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.info-inline-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-value {
+  white-space: nowrap;
+}
+
+.copy-button {
+  background: #28a745;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.copy-button:hover {
+  background: #3b874d;
+  transform: scale(1.05);
+}
+
+.copied-icon {
+  color: #ffffff;
+}

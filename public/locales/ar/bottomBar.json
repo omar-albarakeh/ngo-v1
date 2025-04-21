@@ -1,0 +1,19 @@
+{
+  "bottomBar": {
+    "close": "× إغلاق",
+    "donate": " تبرع",
+    "title": "اصنع فرقًا اليوم:",
+    "placeholder": "أدخل المبلغ",
+    "donateNow": "تبرع الآن",
+    "causes": {
+      "sosGaza": "أنقذوا غزة",
+      "zakatAlMaal": "زكاة المال",
+      "ramadan2025": "رمضان 2025",
+      "rafahEmergency": "طوارئ رفح",
+      "aidAlAdha": "عيد الأضحى",
+      "orphanSponsorship": "كفالة الأيتام",
+      "waterForGaza": "ماء لغزة",
+      "ramadanDonations": "تبرعات رمضان"
+    }
+  }
+}

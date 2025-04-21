@@ -1,0 +1,74 @@
+.charity-quote-container {
+  padding: 40px;
+  background: var(--primary-green);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.charity-quote-container.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.charity-quote-container.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+.charity-quote-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  line-height: 1.8;
+  font-family: "Georgia", serif;
+  white-space: pre-wrap;
+  transition: opacity 0.3s ease;
+  position: relative;
+  max-width: 800px;
+}
+
+/* Typing cursor */
+.charity-quote-text::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 1.2em;
+  background-color: #8edb4f;
+  margin-left: 6px;
+  animation: blink 1s steps(2, start) infinite;
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .charity-quote-text {
+    font-size: 1.25rem;
+  }
+
+  .charity-quote-container {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .charity-quote-text {
+    font-size: 1rem;
+  }
+
+  .charity-quote-container {
+    padding: 25px 15px;
+  }
+}
