@@ -8,8 +8,8 @@ import ZakatCard from "../components/ZakatCard/ZakatCalculator";
 import FeatureSection from "../components/FeatureSection/FeatureSection";
 import CardSlider from "../components/cardSlider3d/cardSlider3d";
 import DonationBenefits from "../components/DonationBenefits/DonationBenefits";
-// import MenuItem from "../components/MenuItem/MenuItem";
-// import BacktoTop from "../components/BackToTopButton/BackToTop";
+import MenuItem from "../components/MenuItem/MenuItem";
+import BacktoTop from "../components/BackToTopButton/BackToTop";
 // import CharityQuote from "../components/CharityQuote/CharityQuote";
 // import Footer from "../components/Footer/Footer";
 // import BottomBar from "../components/BottomBar/BottomBar";
@@ -26,9 +26,9 @@ const Home = () => {
       <FeatureSection />
       <CardSlider />
       <DonationBenefits />
-      {/*<MenuItem />
-      <CharityQuote />
       <BacktoTop />
+      <MenuItem />
+      {/*<CharityQuote />
       <BottomBar />
       <div id="footer-trigger" style={{ height: "0.01px" }}></div>
       <Footer /> */}

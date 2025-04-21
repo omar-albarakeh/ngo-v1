@@ -1,0 +1,37 @@
+{
+  "menu": {
+    "heading": "NOS SERVICES",
+    "learnMore": "En savoir plus",
+    "donateNow": "Faire un don",
+    "aidAlAdha": {
+      "title": "Aïd Al-Adha",
+      "subtitle": "Célébrez l'Aïd en partageant la joie avec les familles de Gaza. Choisissez de donner : un mouton pour 250 €, un veau entier pour 1850 €, ou 1/7 de veau pour 260 €. Votre cadeau permet de fournir des moutons ou des veaux pour le sacrifice, apportant chaleur et bonheur aux plus démunis.",
+      "learnMoreLink": "/aid-al-adha"
+    },
+    "sosGaza": {
+      "title": "SOS Gaza",
+      "subtitle": "La population de Gaza subit des bombardements incessants et une détresse humanitaire. Votre soutien urgent fournit nourriture, aide médicale et fournitures essentielles aux familles dans le besoin.",
+      "learnMoreLink": "/sos-gaza"
+    },
+    "zakatAlMaal": {
+      "title": "Zakat Al-Maal",
+      "subtitle": "Accomplissez votre devoir religieux et améliorez des vies. La Zakat Al-Maal, l’un des cinq piliers de l'Islam, requiert de donner 2,5 % des économies dépassant le Nisab. Votre Zakat finance des efforts de secours essentiels et des projets d'aide durable.",
+      "learnMoreLink": "/zakat-al-maal"
+    },
+    "rafahEmergency": {
+      "title": "Urgence à Rafah",
+      "subtitle": "Des milliers de personnes ont fui leurs foyers à Rafah pour chercher sécurité et abri. Aidez-nous à fournir une aide d'urgence aux familles déplacées en ces temps critiques.",
+      "learnMoreLink": "/rafah-emergency"
+    },
+    "orphanSponsorship": {
+      "title": "Parrainage d'Orphelins",
+      "subtitle": "Ayez un impact durable dans la vie d'un enfant. Parrainez un orphelin pour lui fournir nourriture, éducation, soins de santé et un sentiment d'appartenance.",
+      "learnMoreLink": "/orphan-sponsorship"
+    },
+    "waterForGaza": {
+      "title": "De l'eau pour Gaza",
+      "subtitle": "À Gaza, plus de 90 % de l'eau du robinet est impropre à la consommation en raison d'une salinité extrême et de la pollution. La contamination des eaux souterraines dépasse 96 %. Aidez-nous à fournir de l'eau propre et potable — une bouée de sauvetage essentielle pour de nombreuses familles.",
+      "learnMoreLink": "/water-for-gaza"
+    }
+  }
+}

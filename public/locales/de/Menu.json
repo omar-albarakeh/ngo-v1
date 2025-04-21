@@ -1,0 +1,37 @@
+{
+  "menu": {
+    "heading": "UNSERE DIENSTLEISTUNGEN",
+    "learnMore": "Mehr erfahren",
+    "donateNow": "Jetzt spenden",
+    "aidAlAdha": {
+      "title": "Opferfest (Aid Al-Adha)",
+      "subtitle": "Feiern Sie das Opferfest, indem Sie Freude mit Familien in Gaza teilen. Spenden Sie: ein Schaf für 250 €, ein ganzes Kalb für 1850 € oder 1/7 eines Kalbs für 260 €. Ihr Geschenk hilft, Schafe oder Kälber für das Opfer bereitzustellen und bringt Wärme und Glück zu Bedürftigen.",
+      "learnMoreLink": "/aid-al-adha"
+    },
+    "sosGaza": {
+      "title": "SOS Gaza",
+      "subtitle": "Die Menschen in Gaza erleiden anhaltende Bombardierungen und humanitäre Not. Ihre dringende Unterstützung liefert Lebensmittel, medizinische Hilfe und lebenswichtige Versorgung an notleidende Familien.",
+      "learnMoreLink": "/sos-gaza"
+    },
+    "zakatAlMaal": {
+      "title": "Zakat Al-Maal",
+      "subtitle": "Erfüllen Sie Ihre religiöse Pflicht und verbessern Sie Leben. Zakat Al-Maal, eine der fünf Säulen des Islam, verlangt, 2,5 % der Ersparnisse, die den Nisab überschreiten, zu geben. Ihre Zakat unterstützt wichtige Hilfsmaßnahmen und nachhaltige Projekte.",
+      "learnMoreLink": "/zakat-al-maal"
+    },
+    "rafahEmergency": {
+      "title": "Notfall in Rafah",
+      "subtitle": "Tausende Menschen sind aus ihren Häusern in Rafah geflüchtet und suchen Sicherheit und Schutz. Helfen Sie uns, Notfallhilfe für die vertriebenen Familien in dieser kritischen Zeit bereitzustellen.",
+      "learnMoreLink": "/rafah-emergency"
+    },
+    "orphanSponsorship": {
+      "title": "Patenschaft für Waisen",
+      "subtitle": "Verändern Sie das Leben eines Kindes nachhaltig. Übernehmen Sie eine Patenschaft für ein Waisenkind und sorgen Sie für Nahrung, Bildung, Gesundheitsversorgung und Geborgenheit.",
+      "learnMoreLink": "/orphan-sponsorship"
+    },
+    "waterForGaza": {
+      "title": "Wasser für Gaza",
+      "subtitle": "In Gaza ist über 90 % des Leitungswassers aufgrund extremer Versalzung und Verschmutzung ungenießbar. Die Grundwasserverschmutzung übersteigt 96 %. Helfen Sie uns, sauberes, sicheres Wasser bereitzustellen – eine lebenswichtige Unterstützung für zahlreiche Familien.",
+      "learnMoreLink": "/water-for-gaza"
+    }
+  }
+}
