@@ -35,10 +35,10 @@ const SOSGaza = () => {
       <ImpactMessage />
       <AidSlider />
       <FAQAccordion
-        title={t("faq.title")}
+        title={t("faqs.title")}
         faqList={
-          Array.isArray(t("faq.list", { returnObjects: true }))
-            ? t("faq.list", { returnObjects: true })
+          Array.isArray(t("faqs.list", { returnObjects: true }))
+            ? t("faqs.list", { returnObjects: true })
             : []
         }
       />

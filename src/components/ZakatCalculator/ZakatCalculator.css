@@ -1,21 +1,38 @@
+:root {
+  font-family: "Inter", "Cairo", sans-serif;
+  --bg-color: #f2ede4;
+  --text-color: #1a1a1a;
+  --icon-color: #1a1a1a;
+  --primary-green: #4caf50;
+  --secondary-green: #3b8e3d;
+  --highlight-black: #000000;
+  --highlight-white: #ffffff;
+}
+
 .zakat-container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 2rem;
-  background: #f8fdf8;
-  border: 1px solid #cceccc;
-  border-radius: 12px;
-  box-shadow: 0 0 8px #ccc;
+  background: var(--bg-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+
+.zakat-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .input-group {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .input-group label {
   display: block;
-  margin-bottom: 0.3rem;
-  font-weight: bold;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
 }
 
 .input-group input {
@@ -24,36 +41,25 @@
   font-size: 1rem;
   border-radius: 8px;
   border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 .results {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   font-size: 1.1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
 }
 
 .zakat-due {
-  color: green;
+  color: var(--primary-green);
   font-weight: bold;
 }
 
 .no-zakat {
   color: darkred;
-}
-
-.info-toggle {
-  margin-top: 1.5rem;
-  background-color: #009688;
-  color: white;
-  border: none;
-  padding: 0.6rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.info-box {
-  margin-top: 1rem;
-  background-color: #eefaf1;
-  padding: 1rem;
-  border-radius: 8px;
-  border: 1px solid #b2e6b2;
+  font-weight: bold;
 }

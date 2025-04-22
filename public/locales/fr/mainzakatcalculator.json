@@ -1,0 +1,15 @@
+{
+  "zakatCalculator": {
+    "title": "Calculateur de Zakat al-Mal",
+    "gold": "Or (USD)",
+    "silver": "Argent (USD)",
+    "cash": "Argent liquide (en main et en banque)",
+    "business": "Inventaire commercial",
+    "investments": "Investissements (Actions, Crypto, etc.)",
+    "receivables": "Argent qui vous est dû",
+    "total": "Total des biens soumis à la Zakat",
+    "nisab": "Seuil du Nisab",
+    "zakatDue": "Zakat Due (2,5%)",
+    "noZakat": "Pas de Zakat requise. En dessous du seuil du Nisab."
+  }
+}

@@ -6,48 +6,51 @@
     ],
     "source": "The Prophet (ﷺ), in an authentic narration"
   },
-  "faqs": [
-    {
-      "question": "Where is Gaza?",
-      "answer": "Gaza is a small, densely populated strip of land located on the eastern coast of the Mediterranean Sea, bordered by Egypt and Israel."
-    },
-    {
-      "question": "What is happening in Gaza?",
-      "answer": "Gaza has been facing a humanitarian crisis due to ongoing conflict, blockades, and military operations..."
-    },
-    {
-      "question": "Why is Gaza under blockade?",
-      "answer": "Since 2007, Israel and Egypt have imposed a blockade on Gaza, citing security concerns..."
-    },
-    {
-      "question": "Who lives in Gaza?",
-      "answer": "Gaza is home to over 2 million Palestinians..."
-    },
-    {
-      "question": "What does 'SOS Gaza' mean?",
-      "answer": "'SOS Gaza' is a global call for help..."
-    },
-    {
-      "question": "How can I help Gaza?",
-      "answer": "You can support Gaza by donating to trusted humanitarian organizations..."
-    },
-    {
-      "question": "Are humanitarian organizations able to help in Gaza?",
-      "answer": "Many humanitarian organizations operate under extreme risk and limited access..."
-    },
-    {
-      "question": "Is Gaza safe for civilians?",
-      "answer": "Gaza is considered extremely unsafe during times of conflict..."
-    },
-    {
-      "question": "What is the role of the international community?",
-      "answer": "Many in the international community have called for ceasefires..."
-    },
-    {
-      "question": "What can I do besides donating?",
-      "answer": "You can spread awareness, attend peaceful demonstrations..."
-    }
-  ],
+  "faqs": {
+    "title": "Frequently Asked Questions about Gaza",
+    "list": [
+      {
+        "question": "Where is Gaza?",
+        "answer": "Gaza is a small, densely populated strip of land located on the eastern coast of the Mediterranean Sea. It lies between Israel and Egypt and is part of the Palestinian territories. It has a land area of approximately 365 square kilometers and is home to over 2 million people."
+      },
+      {
+        "question": "What is happening in Gaza?",
+        "answer": "Gaza is currently experiencing a humanitarian crisis due to ongoing conflict, military operations, economic blockade, and limited access to essential services such as healthcare, clean water, and electricity. This has led to widespread poverty, displacement, and civilian casualties."
+      },
+      {
+        "question": "Why is Gaza under blockade?",
+        "answer": "Since 2007, Israel and Egypt have imposed a blockade on Gaza following the political rise of Hamas in the territory. The blockade severely limits the movement of people and goods in and out of Gaza, which has had a devastating effect on its economy and infrastructure. The stated purpose is to prevent weapons from entering, but it also restricts essential supplies and humanitarian aid."
+      },
+      {
+        "question": "Who lives in Gaza?",
+        "answer": "Gaza is home to more than 2 million Palestinians, over half of whom are children. A large percentage of the population are refugees or descendants of refugees who were displaced during the 1948 Arab-Israeli War. The majority of residents live in difficult conditions, with high unemployment and limited access to basic services."
+      },
+      {
+        "question": "What does 'SOS Gaza' mean?",
+        "answer": "'SOS Gaza' is a global humanitarian appeal and campaign phrase used to draw urgent attention to the suffering of civilians in Gaza. It represents a call for international action, support, and relief for those affected by violence, displacement, and deprivation."
+      },
+      {
+        "question": "How can I help Gaza?",
+        "answer": "You can help by donating to reputable humanitarian organizations working on the ground, such as the United Nations Relief and Works Agency (UNRWA), the Red Crescent, and other NGOs. You can also raise awareness through social media, organize fundraisers, and advocate for political action."
+      },
+      {
+        "question": "Are humanitarian organizations able to help in Gaza?",
+        "answer": "Many humanitarian organizations are actively working in Gaza, but they face immense challenges due to restricted access, security concerns, and limited resources. Despite the obstacles, these organizations continue to provide vital services including food, medical aid, shelter, and psychological support."
+      },
+      {
+        "question": "Is Gaza safe for civilians?",
+        "answer": "Gaza is considered extremely unsafe for civilians during periods of conflict. Military operations, airstrikes, and shelling put the lives of residents at constant risk. In addition to the physical danger, the psychological toll of living in a war zone has deeply affected the population, particularly children."
+      },
+      {
+        "question": "What is the role of the international community?",
+        "answer": "The international community plays a vital role in providing humanitarian aid, calling for ceasefires, and advocating for the protection of civilians. Various countries and organizations have urged all parties to adhere to international law and to ensure the safe delivery of aid. However, political complexities often hinder unified action."
+      },
+      {
+        "question": "What can I do besides donating?",
+        "answer": "Besides donating, you can spread awareness by sharing verified information, educating others about the situation in Gaza, attending peaceful demonstrations, contacting your political representatives, and supporting campaigns that advocate for justice and peace in Palestine."
+      }
+    ]
+  },
   "assistanceStats": {
     "title": "Since October 9, we have provided assistance to the Palestinians",
     "stats": {

@@ -16,8 +16,8 @@ const Home = () => {
     <>
       <TopInfoBar />
       <MyNavBar />
-      <BankInfo />
       <DonationPage />
+      <BankInfo />
       <CharityQuote />
       <BacktoTop />
       <Footer />

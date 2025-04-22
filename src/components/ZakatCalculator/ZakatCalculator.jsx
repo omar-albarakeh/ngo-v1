@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./ZakatCalculator.css";
 
 const ZAKAT_PERCENTAGE = 2.5;
-const NISAB = 7800; // USD (based on 85g of gold approx)
+const NISAB = 7800;
 
 const ZakatCalculator = () => {
+  const { t } = useTranslation("mainzakatcalculator");
+
   const [values, setValues] = useState({
     gold: "",
     silver: "",
@@ -13,8 +16,6 @@ const ZakatCalculator = () => {
     investments: "",
     receivables: "",
   });
-
-  const [showInfo, setShowInfo] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -34,63 +35,69 @@ const ZakatCalculator = () => {
 
   return (
     <div className="zakat-container">
-      <h2>Zakat al-Mal Calculator</h2>
+      <h2>{t("zakatCalculator.title")}</h2>
 
       <div className="input-group">
-        <label>Gold (USD)</label>
+        <label htmlFor="gold">{t("zakatCalculator.gold")}</label>
         <input
           type="number"
           name="gold"
+          id="gold"
           value={values.gold}
           onChange={handleChange}
         />
       </div>
 
       <div className="input-group">
-        <label>Silver (USD)</label>
+        <label htmlFor="silver">{t("zakatCalculator.silver")}</label>
         <input
           type="number"
           name="silver"
+          id="silver"
           value={values.silver}
           onChange={handleChange}
         />
       </div>
 
       <div className="input-group">
-        <label>Cash (in hand & bank)</label>
+        <label htmlFor="cash">{t("zakatCalculator.cash")}</label>
         <input
           type="number"
           name="cash"
+          id="cash"
           value={values.cash}
           onChange={handleChange}
         />
       </div>
 
       <div className="input-group">
-        <label>Business Inventory</label>
+        <label htmlFor="business">{t("zakatCalculator.business")}</label>
         <input
           type="number"
           name="business"
+          id="business"
           value={values.business}
           onChange={handleChange}
         />
       </div>
 
       <div className="input-group">
-        <label>Investments (Stocks, Crypto, etc.)</label>
+        <label htmlFor="investments">{t("zakatCalculator.investments")}</label>
         <input
           type="number"
           name="investments"
+          id="investments"
           value={values.investments}
           onChange={handleChange}
         />
       </div>
 
       <div className="input-group">
-        <label>Money Owed to You</label>
+        <label htmlFor="receivables">{t("zakatCalculator.receivables")}</label>
         <input
           type="number"
           name="receivables"
+          id="receivables"
           value={values.receivables}
           onChange={handleChange}
         />
@@ -98,59 +105,20 @@ const ZakatCalculator = () => {
 
       <div className="results">
         <p>
-          <strong>Total Zakatable Wealth:</strong> ${totalZakatable.toFixed(2)}
+          <strong>{t("zakatCalculator.total")}:</strong> $
+          {totalZakatable.toFixed(2)}
         </p>
         <p>
-          <strong>Nisab Threshold:</strong> $7,800
+          <strong>{t("zakatCalculator.nisab")}:</strong> ${NISAB}
         </p>
         {zakatDue > 0 ? (
-          <p className="zakat-due">Zakat Due (2.5%): ${zakatDue.toFixed(2)}</p>
-        ) : (
-          <p className="no-zakat">
-            No Zakat required. Total is below the Nisab.
+          <p className="zakat-due">
+            {t("zakatCalculator.zakatDue")}: ${zakatDue.toFixed(2)}
           </p>
+        ) : (
+          <p className="no-zakat">{t("zakatCalculator.noZakat")}</p>
         )}
       </div>
-
-      <button className="info-toggle" onClick={() => setShowInfo(!showInfo)}>
-        {showInfo ? "Hide Info" : "What is Zakat al-Mal?"}
-      </button>
-
-      {showInfo && (
-        <div className="info-box">
-          <h3>About Zakat al-Mal</h3>
-          <p>
-            Zakat al-Mal is a form of charity required from every Muslim who
-            possesses wealth above the Nisab for one full lunar year.
-          </p>
-          <ul>
-            <li>
-              Rate: <strong>2.5%</strong>
-            </li>
-            <li>
-              Nisab (based on gold): <strong>$7,800</strong>
-            </li>
-            <li>
-              Assets that require Zakat:
-              <ul>
-                <li>Gold, Silver</li>
-                <li>Cash & bank balance</li>
-                <li>Business goods</li>
-                <li>Investments (stocks, crypto)</li>
-                <li>Receivables (money owed to you)</li>
-              </ul>
-            </li>
-            <li>
-              No Zakat on:
-              <ul>
-                <li>Personal home</li>
-                <li>Car & furniture</li>
-                <li>Clothing</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      )}
     </div>
   );
 };
