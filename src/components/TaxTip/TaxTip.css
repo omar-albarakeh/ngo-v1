@@ -8,21 +8,18 @@
   width: 100%;
   font-family: sans-serif;
   text-align: center;
-  height: auto;
   min-height: 100px;
-  line-height: 1.6;
+  line-height: 1.2;
   box-sizing: border-box;
 }
 
 .tax-tip-box h3 {
   font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 1rem;
   color: var(--text-color);
 }
 
 .tax-tip-box p {
-  margin-bottom: 1rem;
   line-height: 1.6;
   font-size: 1.2rem;
 }
@@ -31,7 +28,6 @@
   font-size: 0.95rem;
   color: rgba(0, 0, 0, 0.7);
   font-style: italic;
-  margin-top: 1.25rem;
 }
 
 .tax-tip-note strong,

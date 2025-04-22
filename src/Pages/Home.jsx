@@ -26,9 +26,9 @@ const Home = () => {
       <HeroSlider />
       <AdPopup
         message="Check out our new donation campaign!"
-        link="/donate"
-        useRouter={true} // If using react-router, set this to true
-        delay={2000} // Delay before showing the popup
+        link="/aid-al-adha"
+        useRouter={true} 
+        delay={2000}
       />
       <TaxTip />
       <QurbaniSection />

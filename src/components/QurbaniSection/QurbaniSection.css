@@ -7,6 +7,13 @@
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
 }
 
+.countdown-timer {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #064e3b;
+  margin-bottom: 1rem;
+}
+
 .progress-bar-container {
   margin: 1rem 0;
 }
@@ -31,26 +38,63 @@
   transition: width 0.4s ease;
 }
 
+.milestone {
+  margin-top: 0.5rem;
+  color: #15803d;
+  font-weight: 500;
+}
+
+.donation-message {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  color: #065f46;
+  font-weight: 500;
+}
+
 .donation-tiers {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .donate-tier-btn {
   background-color: #16a34a;
   color: white;
   border: none;
-  padding: 0.75rem 1.25rem;
+  padding: 1.2rem 1.5rem;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
 }
 
 .donate-tier-btn:hover {
   background-color: #15803d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.donate-tier-btn.selected {
+  border: 2px solid #bbf7d0;
+  background-color: #065f46;
+  box-shadow: inset 0 0 0 3px #bbf7d0;
+}
+
+.tier-icon {
+  margin-right: 0.5rem;
+}
+
+.donation-inline-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }

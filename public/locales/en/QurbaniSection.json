@@ -1,14 +1,18 @@
 {
-  "timeLeft": "left to donate for Eid 2025",
-  "goalText": "Goal: Feed {{goal}} families – {{current}} funded ✅",
-  "milestone": {
-    "100": "💯 Over 100 families reached!",
-    "300": "🔥 300+ funded! Almost there!"
-  },
+  "timeLeft": "left to donate",
+  "goalText": "{{current}} out of {{goal}} donations collected",
+  "donationMessage": "Choose your Qurbani type:",
+  "clickToSelect": "Click to select this donation",
   "donationTier": {
     "goat": "1 Goat",
-    "share": "Cow Share",
+    "share": "1 Share of Cow",
     "full": "Full Cow"
   },
-  "redirecting": "Redirecting to donate ${{amount}}..."
+  "milestone": {
+    "100": "🎉 100 donations reached!",
+    "200": "🎉 200 donations reached!",
+    "300": "🎉 300 donations reached!",
+    "400": "🎉 400 donations reached!",
+    "500": "🎉 Goal reached! May Allah accept your sacrifice!"
+  }
 }

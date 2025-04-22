@@ -5,8 +5,8 @@ import { useTranslation } from "react-i18next";
 import "./QurbaniSection.css";
 
 const donationDeadline = new Date("2025-06-06T23:59:59");
-const current = 312;
-const goal = 500;
+const current = 2312;
+const goal = 9200;
 
 const QurbaniDonateBox = () => {
   const { t } = useTranslation("QurbaniSection");
@@ -55,19 +55,15 @@ const QurbaniDonateBox = () => {
   }, []);
 
   const donationTiers = [
-    { amount: 50, label: t("donationTier.goat"), emoji: "🐐" },
-    { amount: 250, label: t("donationTier.share"), emoji: "🐄" },
-    { amount: 1000, label: t("donationTier.full"), emoji: "🐂" },
+    { amount: 250, label: t("donationTier.goat"), emoji: "🐐" },
+    { amount: 260, label: t("donationTier.share"), emoji: "🐄" },
+    { amount: 1850, label: t("donationTier.full"), emoji: "🐂" },
   ];
 
   const handleDonate = (amount) => {
     setSelectedTier(amount);
-
-    // Save to localStorage
     localStorage.setItem("donationAmount", amount.toString());
     localStorage.setItem("donationCause", "aid-al-adha");
-
-    // Redirect to donation page
     window.location.href = "/donation";
   };
 
@@ -83,22 +79,23 @@ const QurbaniDonateBox = () => {
         <div className="progress-bar">
           <div className="progress-fill" ref={progressRef}></div>
         </div>
-
-        {current >= 100 && <p className="milestone">{t("milestone.100")}</p>}
-        {current >= 300 && <p className="milestone">{t("milestone.300")}</p>}
       </div>
 
-      <div className="donation-tiers">
-        {donationTiers.map((tier) => (
-          <button
-            key={tier.amount}
-            className={`donate-tier-btn ${
-              selectedTier === tier.amount ? "selected" : ""
-            }`}
-            onClick={() => handleDonate(tier.amount)}>
-            {tier.emoji} ${tier.amount} – {tier.label}
-          </button>
-        ))}
+      <div className="donation-inline-row">
+        <span className="donation-message">{t("donationMessage")}</span>
+        <div className="donation-tiers">
+          {donationTiers.map((tier) => (
+            <button
+              key={tier.amount}
+              className={`donate-tier-btn ${
+                selectedTier === tier.amount ? "selected" : ""
+              }`}
+              title={t("clickToSelect")}
+              onClick={() => handleDonate(tier.amount)}>
+              {tier.emoji} ${tier.amount} – {tier.label}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

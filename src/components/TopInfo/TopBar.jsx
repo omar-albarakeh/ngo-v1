@@ -1,30 +1,25 @@
 import React from "react";
 import "./TopBar.css";
-import { useTranslation } from "react-i18next";
 
 const TopInfoBar = () => {
-  const { t } = useTranslation("TopInfo");
-
   const contactItems = [
     {
       icon: "fas fa-map-marker-alt",
       content: (
         <a
-          href={`https://www.google.com/maps/search/${encodeURIComponent(
-            t("address")
-          )}`}
+          href="https://www.google.com/maps/search/7+Rue+de+Pfastatt,+68110+illzach,+France"
           target="_blank"
           rel="noopener noreferrer"
           className="top-contact-link">
-          {t("TopInfo.address")}
+          7 Rue de Pfastatt, 68110 Illzach, France
         </a>
       ),
     },
     {
       icon: "fas fa-envelope",
       content: (
-        <a href={`mailto:${t("email")}`} className="top-contact-link">
-          {t("TopInfo.email")}
+        <a href="mailto:contact@sospalestine.fr" className="top-contact-link">
+          contact@sospalestine.fr
         </a>
       ),
     },
@@ -32,16 +27,16 @@ const TopInfoBar = () => {
       icon: "fas fa-phone",
       content: (
         <span className="phone-links">
-          <a href={`tel:${t("TopInfo.phone1")}`} className="top-contact-link">
-            {t("TopInfo.phone1")}
+          <a href="tel:+33634588276" className="top-contact-link">
+            +33 6 34 58 82 76
           </a>
           <span className="separator"> / </span>
-          <a href={`tel:${t("TopInfo.phone2")}`} className="top-contact-link">
-            {t("TopInfo.phone2")}
+          <a href="tel:+33951082454" className="top-contact-link">
+            +33 9 51 08 24 54
           </a>
           <span className="separator"> / </span>
-          <a href={`tel:${t("TopInfo.phone3")}`} className="top-contact-link">
-            {t("TopInfo.phone3")}
+          <a href="tel:+33783255325" className="top-contact-link">
+            +33 7 83 25 53 25
           </a>
         </span>
       ),
@@ -83,7 +78,7 @@ const TopInfoBar = () => {
       </div>
 
       <div className="top-social-links">
-        <span className="top-follow-label">{t("TopInfo.follow-us")}</span>
+        <span className="top-follow-label">Follow Us</span>
         {socialLinks.map((social) => (
           <a
             key={social.name}
