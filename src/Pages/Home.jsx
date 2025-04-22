@@ -16,6 +16,7 @@ import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/BottomBar/BottomBar";
 import QurbaniSection from "../components/QurbaniSection/QurbaniSection";
 import AidAdhaSection from "../components/AidAdhaSection/AidAdhaSection";
+import AdPopup from "../components/AdPopup/AdPopup";
 
 const Home = () => {
   return (
@@ -23,6 +24,12 @@ const Home = () => {
       <TopInfoBar />
       <MyNavBar />
       <HeroSlider />
+      <AdPopup
+        message="Check out our new donation campaign!"
+        link="/donate"
+        useRouter={true} // If using react-router, set this to true
+        delay={2000} // Delay before showing the popup
+      />
       <TaxTip />
       <QurbaniSection />
       <YouTube />
