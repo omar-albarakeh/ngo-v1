@@ -1,13 +1,18 @@
 {
-  "aidAdha": {
-    "heading": "Vier Eid Al-Adha met vrijgevigheid",
-    "paragraph1": {
-      "bold": "Steun Qurbani voor gezinnen in nood.",
-      "normal": " Jouw donatie zorgt ervoor dat zij ook de vreugde en zegeningen van Eid ervaren."
-    },
-    "paragraph2": "Laten we deze Eid medeleven en eenheid verspreiden door jouw bijdrage."
+  "timeLeft": "verbleibende Zeit für eine Spende zum Eid al-Adha 2025 (1446 AH)",
+  "goalText": "{{current}} von {{goal}} Spenden gesammelt",
+  "donationMessage": "Wähle deine Qurbani-Art:",
+  "clickToSelect": "Klicken Sie hier, um diese Spende auszuwählen",
+  "donationTier": {
+    "goat": "1 Ziege",
+    "share": "1 Anteil einer Kuh",
+    "full": "Ganze Kuh"
   },
-  "nav": {
-    "qurbani": "Doneer voor Qurbani"
+  "milestone": {
+    "100": "🎉 100 Spenden erreicht!",
+    "200": "🎉 200 Spenden erreicht!",
+    "300": "🎉 300 Spenden erreicht!",
+    "400": "🎉 400 Spenden erreicht!",
+    "500": "🎉 Ziel erreicht! Möge Allah dein Opfer annehmen!"
   }
 }

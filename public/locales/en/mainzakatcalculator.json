@@ -1,8 +1,10 @@
 {
   "zakatCalculator": {
     "title": "Zakat al-Mal Calculator",
-    "gold": "Gold (USD)",
-    "silver": "Silver (USD)",
+    "gold": "Gold",
+    "silver": "Silver",
+    "grams": "Weight in Grams",
+    "pricePerGram": "Price per Gram (USD)",
     "cash": "Cash (in hand & bank)",
     "business": "Business Inventory",
     "investments": "Investments (Stocks, Crypto, etc.)",

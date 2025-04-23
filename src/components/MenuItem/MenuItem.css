@@ -1,15 +1,36 @@
 .menu-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
   padding: 30px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1350px;
+  margin: 50px auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.menu-heading {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* This ensures 3 cards per row */
+  gap: 24px;
+  width: 100%;
 }
 
 .menu-card {
-  background-color: #fff;
+  background-color: #f2ede4;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
@@ -51,6 +72,13 @@
   margin-bottom: 20px;
 }
 
+.menu-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+
 .menu-button {
   background-color: #31b80c;
   color: #fff;
@@ -66,21 +94,4 @@
 
 .menu-button:hover {
   background-color: #297f12;
-}
-
-.menu-heading {
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 40px;
-  color: #333;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.menu-buttons {
-  display: flex;
-  gap: 10px;
-  margin-top: auto;
-  flex-wrap: wrap;
 }

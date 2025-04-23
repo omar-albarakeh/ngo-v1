@@ -74,9 +74,8 @@ const HeroSlider = () => {
           <div className="hero-slide-inner">
             <div className="hero-content">
               <div className="hero-text-box">
-                <h2 className="hero-title">{currentSlide.title}</h2>
-                <h3 className="hero-subtitle">{currentSlide.name}</h3>
-                <p className="hero-description">{currentSlide.description}</p>
+                <h2 className="hero-title">{currentSlide.name}</h2>
+                <h3 className="hero-subtitle">{currentSlide.description}</h3>
                 <CustomButton title={currentSlide.buttonText} to="/donation" />
               </div>
             </div>

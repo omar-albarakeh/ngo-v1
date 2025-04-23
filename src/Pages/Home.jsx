@@ -24,22 +24,22 @@ const Home = () => {
       <TopInfoBar />
       <MyNavBar />
       <HeroSlider />
-      <AdPopup
+      {/* <AdPopup
         message="Check out our new donation campaign!"
         link="/aid-al-adha"
         useRouter={true} 
         delay={2000}
-      />
+      /> */}
       <TaxTip />
       <QurbaniSection />
-      <YouTube />
       <AidAdhaSection />
       <ZakatCard />
+      <YouTube />
       <FeatureSection />
       <CardSlider />
-      <DonationBenefits />
       <BacktoTop />
       <MenuItem />
+      <DonationBenefits />
       <CharityQuote />
       <div id="footer-trigger" style={{ height: "0.01px" }}></div>
       <BottomBar />

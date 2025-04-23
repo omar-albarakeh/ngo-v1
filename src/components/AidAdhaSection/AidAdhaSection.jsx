@@ -8,6 +8,12 @@ const AidAdhaSection = () => {
 
   return (
     <div className="aid-section">
+      <div className="aid-triangle">
+        <img
+          src="/images/FeatureSectionB/udhiyah.jpg"
+          alt="Qurbani distribution"
+        />
+      </div>
       <div className="aid-content">
         <h2>{t("aidAdha.heading")}</h2>
         <p>
@@ -20,12 +26,6 @@ const AidAdhaSection = () => {
           <CustomButton titleKey={t("aidAdha.button")} to="/donation" />
           <CustomButton titleKey={t("aidAdha.learnMore")} to="/aid-al-adha" />
         </div>
-      </div>
-      <div className="aid-triangle">
-        <img
-          src="/images/FeatureSectionB/udhiyah.jpg"
-          alt="Qurbani distribution"
-        />
       </div>
     </div>
   );

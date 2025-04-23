@@ -8,9 +8,6 @@ const ZakatCalculator = () => {
 
   return (
     <div className="zakat-section">
-      <div className="zakat-triangle">
-        <img src="/images/HeroSlider/slide2.webp" alt="Child counting coins" />
-      </div>
       <div className="zakat-content">
         <h2>{t("zakatCalculator.heading")}</h2>
         <p>
@@ -19,7 +16,13 @@ const ZakatCalculator = () => {
         </p>
         <p>{t("zakatCalculator.paragraph2")}</p>
 
-        <CustomButton titleKey="nav.zakat" to="/zakat-al-maal" />
+        <div className="aid-buttons">
+          <CustomButton titleKey="nav.zakat" to="/zakat-al-maal" />
+          <CustomButton titleKey={t("nav.donateNow")} to="/donation" />
+        </div>
+      </div>
+      <div className="zakat-triangle">
+        <img src="/images/HeroSlider/slide2.webp" alt="Child counting coins" />
       </div>
     </div>
   );

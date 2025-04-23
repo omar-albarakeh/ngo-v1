@@ -89,20 +89,22 @@ const Menu = () => {
 
   return (
     <>
-      <h1 className="menu-heading">{t("menu.heading")}</h1>
       <div className="menu-container">
-        {menuItems.map((item, index) => (
-          <MenuItem
-            key={index}
-            image={item.image}
-            title={item.title}
-            subtitle={item.subtitle}
-            learnMoreText={item.learnMoreText}
-            learnMoreLink={item.learnMoreLink}
-            donateText={item.donateText}
-            donateLink={item.donateLink}
-          />
-        ))}
+        <h1 className="menu-heading">{t("menu.heading")}</h1>
+        <div className="menu-items">
+          {menuItems.map((item, index) => (
+            <MenuItem
+              key={index}
+              image={item.image}
+              title={item.title}
+              subtitle={item.subtitle}
+              learnMoreText={item.learnMoreText}
+              learnMoreLink={item.learnMoreLink}
+              donateText={item.donateText}
+              donateLink={item.donateLink}
+            />
+          ))}
+        </div>
       </div>
     </>
   );

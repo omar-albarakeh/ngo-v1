@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import "./QurbaniSection.css";
 
 const donationDeadline = new Date("2025-06-06T23:59:59");
-const current = 2312;
+const current = 312;
 const goal = 9200;
 
 const QurbaniDonateBox = () => {
@@ -56,7 +56,7 @@ const QurbaniDonateBox = () => {
 
   const donationTiers = [
     { amount: 250, label: t("donationTier.goat"), emoji: "🐐" },
-    { amount: 260, label: t("donationTier.share"), emoji: "🐄" },
+    { amount: 260, label: t("donationTier.share"), emoji: "🥩" },
     { amount: 1850, label: t("donationTier.full"), emoji: "🐂" },
   ];
 

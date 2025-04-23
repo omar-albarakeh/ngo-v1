@@ -56,19 +56,18 @@
 }
 
 .hero-text-box {
-  background-color: rgba(255, 255, 255, 0.72);
+  background: rgba(242, 237, 228, 0.82);
   padding: 1rem 1.25rem;
   border-radius: 0.875rem;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
   animation: fadeInUp 1s ease forwards;
   max-width: 100%;
+  height: 250px;
 }
 
 .hero-title {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: bold;
   margin: 0;
-  color: var(--primary-green);
 }
 
 .hero-subtitle {

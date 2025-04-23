@@ -14,6 +14,7 @@ import BottomBar from "../components/BottomBar/BottomBar";
 import zakatData from "../components/FAQAccordion/faqData/zakat.json";
 import FAQAccordion from "../components/FAQAccordion/FAQAccordion";
 import ZakatCalculator from "../components/ZakatCalculator/ZakatCalculator";
+import Test123 from "../components/ZakatCalculator/test123";
 
 const ZakatAlmal = () => {
   return (

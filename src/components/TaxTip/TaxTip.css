@@ -35,6 +35,7 @@
   margin: 0 0.3rem;
   display: inline-block;
   vertical-align: middle;
+  color: var(--primary-green);
 }
 @media (max-width: 768px) {
   .tax-tip-box {

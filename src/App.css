@@ -16,6 +16,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: white;
+}
 button,
 img,
 .logo {
@@ -30,3 +33,9 @@ html[dir="ltr"] {
   direction: ltr;
   text-align: left;
 }
+
+html, body, #root {
+  height: 100%;
+  background-color: var(--bg-color); /* Or #f2ede4 */
+}
+

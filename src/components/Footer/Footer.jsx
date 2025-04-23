@@ -52,10 +52,11 @@ const Footer = () => {
             <li>
               <i className="fa fa-map-marker-alt"></i>
               <a
-                href="https://www.google.com/maps?q=17,+avenue+Aristide+Briand+-+68200+Mulhouse"
+                href="https://www.google.com/maps/search/7+Rue+de+Pfastatt,+68110+illzach,+France"
                 target="_blank"
-                rel="noopener noreferrer">
-                {t("footer.address")}
+                rel="noopener noreferrer"
+                className="top-contact-link">
+                7 Rue de Pfastatt, 68110 Illzach, France
               </a>
             </li>
             <li>

@@ -1,7 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./TopBar.css";
 
 const TopInfoBar = () => {
+  const { t, i18n } = useTranslation("TopInfo");
+  const isArabic = i18n.language === "ar";
+
   const contactItems = [
     {
       icon: "fas fa-map-marker-alt",
@@ -77,8 +81,8 @@ const TopInfoBar = () => {
         ))}
       </div>
 
-      <div className="top-social-links">
-        <span className="top-follow-label">Follow Us</span>
+      <div className={`top-social-links ${isArabic ? "rtl" : ""}`}>
+        <span className="top-follow-label">{t("TopInfo.follow-us")}</span>
         {socialLinks.map((social) => (
           <a
             key={social.name}

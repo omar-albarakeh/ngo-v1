@@ -1,14 +1,18 @@
 {
-  "timeLeft": "restants pour faire un don pour l'Aïd 2025",
-  "goalText": "Objectif : Nourrir {{goal}} familles – {{current}} financées ✅",
-  "milestone": {
-    "100": "💯 Plus de 100 familles atteintes !",
-    "300": "🔥 Plus de 300 financées ! Presque terminé !"
-  },
+  "timeLeft": "Temps restant pour faire un don pour l'Aïd al-Adha 2025 (1446 H)",
+  "goalText": "{{current}} sur {{goal}} dons collectés",
+  "donationMessage": "Choisissez votre type de Qurbani :",
+  "clickToSelect": "Cliquez pour sélectionner ce don",
   "donationTier": {
     "goat": "1 Chèvre",
-    "share": "Part de vache",
+    "share": "1 Part de Vache",
     "full": "Vache entière"
   },
-  "redirecting": "Redirection vers le don de ${{amount}}..."
+  "milestone": {
+    "100": "🎉 100 dons atteints !",
+    "200": "🎉 200 dons atteints !",
+    "300": "🎉 300 dons atteints !",
+    "400": "🎉 400 dons atteints !",
+    "500": "🎉 Objectif atteint ! Qu'Allah accepte votre sacrifice !"
+  }
 }
