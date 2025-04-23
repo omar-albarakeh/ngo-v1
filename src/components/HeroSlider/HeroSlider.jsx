@@ -11,7 +11,7 @@ const HeroSlider = () => {
 
   const timeoutRef = useRef(null);
   const progressRef = useRef(null);
-  const AUTO_INTERVAL = 5000;
+  const AUTO_INTERVAL = 30000;
 
   useEffect(() => {
     setSlides(t("slider", { returnObjects: true }));
